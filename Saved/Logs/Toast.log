@@ -20,3 +20,846 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.06-19.08.38:502][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.06-19.08.38:502][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.06-19.08.38:514][  0]LogInit: Computer: ALF
+[2017.12.06-19.08.38:514][  0]LogInit: User: alrod000
+[2017.12.06-19.08.38:514][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.06-19.08.38:514][  0]LogInit: High frequency timer resolution =3.312789 MHz
+[2017.12.06-19.08.38:514][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.12.06-19.08.38:514][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.06-19.08.38:514][  0]LogMemory: Process Physical Memory: 273.34 MB used, 273.34 MB peak
+[2017.12.06-19.08.38:514][  0]LogMemory: Process Virtual Memory: 266.75 MB used, 266.75 MB peak
+[2017.12.06-19.08.38:514][  0]LogMemory: Physical Memory: 5997.32 MB used,  2164.09 MB free, 8161.41 MB total
+[2017.12.06-19.08.38:514][  0]LogMemory: Virtual Memory: 629.32 MB used,  2164.09 MB free, 134217728.00 MB total
+[2017.12.06-19.08.38:612][  0]LogInit: Using OS detected language (en-US).
+[2017.12.06-19.08.38:612][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.06-19.08.38:617][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.06-19.08.39:608][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.06-19.08.39:654][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2017.12.06-19.08.39:654][  0]LogD3D11RHI:       4060/0/4080 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.06-19.08.39:655][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.06-19.08.39:655][  0]LogD3D11RHI:       0/0/4080 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.06-19.08.39:655][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.06-19.08.39:660][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.06-19.08.39:660][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.06-19.08.39:660][  0]LogWindows: EnumDisplayDevices:
+[2017.12.06-19.08.39:661][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2017.12.06-19.08.39:661][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:1)
+[2017.12.06-19.08.39:661][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.12.06-19.08.39:661][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.12.06-19.08.39:661][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.12.06-19.08.39:661][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2017.12.06-19.08.39:661][  0]LogD3D11RHI:   Driver Version: 388.31 (internal:23.21.13.8831, unified:388.31)
+[2017.12.06-19.08.39:661][  0]LogD3D11RHI:      Driver Date: 11-14-2017
+[2017.12.06-19.08.39:661][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.06-19.08.39:687][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.06-19.08.39:698][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.06-19.08.39:794][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Intermediate/Shaders/WorkingDirectory/2612/).
+[2017.12.06-19.08.39:795][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/alrod_000/AppData/Local/Temp/UnrealShaderWorkingDir/C3E06FAF4D9ADEF27127EBA27E406952/'.
+[2017.12.06-19.08.39:795][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.12.06-19.08.40:978][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.06-19.08.41:055][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.12.06-19.08.41:131][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.06-19.08.41:208][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.12.06-19.08.41:288][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.12.06-19.08.41:365][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.06-19.08.41:443][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.06-19.08.41:520][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.06-19.08.41:590][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.12.06-19.08.41:666][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.12.06-19.08.41:742][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.06-19.08.41:816][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.06-19.08.41:890][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.06-19.08.41:965][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.06-19.08.42:040][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.06-19.08.42:187][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.06-19.08.42:187][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.06-19.08.42:252][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.12.06-19.08.42:382][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.12.06-19.08.42:426][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.12.06-19.08.42:500][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.06-19.08.42:575][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.06-19.08.42:650][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.06-19.08.42:725][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.12.06-19.08.42:725][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.12.06-19.08.43:488][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.12.06-19.08.43:577][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/alrod_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.06-19.08.43:577][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/alrod_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.12.06-19.08.43:577][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.06-19.08.43:577][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.06-19.08.43:577][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.06-19.08.43:577][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.06-19.08.43:593][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.06-19.08.43:605][  0]LogDerivedDataCache: Using Local data cache path C:/Users/alrod_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.06-19.08.43:617][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.06-19.08.43:617][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.06-19.08.43:618][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.06-19.08.43:618][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.06-19.08.44:027][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.06-19.08.44:111][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.06-19.08.44:324][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.06-19.08.44:398][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.06-19.08.44:480][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.06-19.08.44:480][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.12.06-19.08.44:480][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.12.06-19.08.45:196][  0]LogNetVersion: Toast , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 164098987)
+[2017.12.06-19.08.45:272][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2017.12.06-19.08.45:368][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.061837 seconds
+[2017.12.06-19.08.45:373][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.12.06-19.08.45:373][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.12.06-19.08.45:373][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.06-19.08.45:470][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.06-19.08.48:802][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.06-19.08.48:861][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.06-19.08.49:699][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.06-19.08.50:324][  0]SourceControl: Info Source control is disabled
+[2017.12.06-19.08.50:379][  0]SourceControl: Info Source control is disabled
+[2017.12.06-19.08.50:462][  0]SourceControl: Info Source control is disabled
+[2017.12.06-19.08.50:543][  0]SourceControl: Info Source control is disabled
+[2017.12.06-19.08.51:674][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.06-19.08.52:648][  0]LogEngine: Initializing Engine...
+[2017.12.06-19.08.52:649][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.06-19.08.52:860][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.06-19.08.52:860][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.06-19.08.53:067][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.06-19.08.53:089][  0]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.06-19.08.53:118][  0]LogInit: FAudioDevice initialized.
+[2017.12.06-19.08.53:165][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/alrod_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.06-19.08.53:176][  0]LogInit: Texture streaming: Enabled
+[2017.12.06-19.08.53:323][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.06-19.08.53:675][  0]LogInit: Transaction tracking system initialized
+[2017.12.06-19.08.54:189][  0]BlueprintLog: New page: Editor Load
+[2017.12.06-19.08.55:695][  0]LocalizationService: Info Localization service is disabled
+[2017.12.06-19.08.56:758][  0]LogConsoleResponse:Display: 
+[2017.12.06-19.08.56:927][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.06-19.08.56:927][  0]LogCook:Display: Mobile HDR setting 1
+[2017.12.06-19.08.56:963][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/' took 0.02s
+[2017.12.06-19.08.58:559][  0]SourceControl: Info Source control is disabled
+[2017.12.06-19.08.58:559][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.06-19.08.58:560][  0]LightingResults: New page: Lighting Build
+[2017.12.06-19.08.58:624][  0]MapCheck: New page: Map Check
+[2017.12.06-19.08.58:624][  0]LightingResults: New page: Lighting Build
+[2017.12.06-19.08.58:894][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.12.06-19.08.58:894][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.06-19.08.58:899][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.06-19.08.58:918][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.06-19.08.59:010][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 92.85ms to complete.
+[2017.12.06-19.08.59:010][  0]LogFileHelpers: Loading map 'Template_Default' took 0.451
+[2017.12.06-19.08.59:223][  0]LogCollectionManager: Loaded 0 collections in 0.003049 seconds
+[2017.12.06-19.08.59:356][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Collections/' took 0.01s
+[2017.12.06-19.08.59:356][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Developers/alrod000/Collections/' took 0.01s
+[2017.12.06-19.08.59:356][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Collections/' took 0.01s
+[2017.12.06-19.08.59:356][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.12.06-19.08.59:369][  0]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2329 classes and 491 folders.
+[2017.12.06-19.08.59:483][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.12.06-19.08.59:618][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.12.06-19.08.59:696][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.12.06-19.08.59:783][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.12.06-19.08.59:793][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.06-19.08.59:796][  0]LogSlate: Took 0.000341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.06-19.08.59:805][  0]LogSlate: Took 0.001373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.06-19.08.59:925][  0]LogRenderer: Reallocating scene render targets to support 1124x576 NumSamples 1 (Frame:1).
+[2017.12.06-19.09.00:050][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.12.06-19.09.00:147][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.12.06-19.09.00:148][  0]LogLoad: (Engine Initialization) Total time: 24.11 seconds
+[2017.12.06-19.09.00:148][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2017.12.06-19.09.00:148][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.06-19.09.00:487][  0]LogOcInput: OculusInput pre-init called
+[2017.12.06-19.09.00:487][  0]LogHMD: Starting GearVRController plugin
+[2017.12.06-19.09.00:509][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.06-19.09.00:555][  0]LogSlate: Took 0.001524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.06-19.09.00:831][  1]LogAssetRegistry: Asset discovery search completed in 15.5811 seconds
+[2017.12.06-19.09.00:833][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.06-19.09.00:833][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2017.12.06-19.09.08:360][511]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.06-19.09.08:754][511]LogAIModule: Creating AISystem for world Toaster_Interior
+[2017.12.06-19.09.08:776][511]Cmd: MAP LOAD FILE="../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.06-19.09.08:777][511]LightingResults: New page: Lighting Build
+[2017.12.06-19.09.08:777][511]LoadErrors: New page: Loading map: Toaster_Interior.umap
+[2017.12.06-19.09.08:778][511]MapCheck: New page: Map Check
+[2017.12.06-19.09.08:778][511]LightingResults: New page: Lighting Build
+[2017.12.06-19.09.08:814][511]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.06-19.09.08:841][511]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.06-19.09.08:944][511]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 103.198ms to complete.
+[2017.12.06-19.09.08:944][511]LogFileHelpers: Loading map 'Toaster_Interior' took 0.168
+[2017.12.06-19.09.19:134][667]Cmd: SELECT NONE
+[2017.12.06-19.09.21:585][959]MapCheck: New page: Map Check
+[2017.12.06-19.09.21:603][959]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.06-19.09.21:603][959]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.06-19.09.21:731][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.06-19.09.21:742][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2017.12.06-19.09.21:748][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.12.06-19.09.21:753][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Nick_Glass, compiling. 
+[2017.12.06-19.09.21:760][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial, compiling. 
+[2017.12.06-19.09.21:766][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatteSilver, compiling. 
+[2017.12.06-19.09.21:772][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GreenLight, compiling. 
+[2017.12.06-19.09.21:778][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Alarm_Shiny_Metal, compiling. 
+[2017.12.06-19.09.21:784][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy White, compiling. 
+[2017.12.06-19.09.21:790][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Red, compiling. 
+[2017.12.06-19.09.21:797][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tan, compiling. 
+[2017.12.06-19.09.21:803][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy material0, compiling. 
+[2017.12.06-19.09.21:810][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Light, compiling. 
+[2017.12.06-19.09.21:816][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Shoesmat, compiling. 
+[2017.12.06-19.09.21:823][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Topmat, compiling. 
+[2017.12.06-19.09.21:829][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2017.12.06-19.09.22:957][959]TextureStreamingBuild:Display: Compiling optional shaders took 1.233 seconds.
+[2017.12.06-19.09.22:966][959]LogLevel:Display: Export Material TexCoord Scales took 0.010 seconds.
+[2017.12.06-19.09.22:977][959]TextureStreamingBuild:Display: Build Texture Streaming took 0.010 seconds.
+[2017.12.06-19.09.22:988][959]LightingResults: New page: Lighting Build - Dec 6, 2017, 5:09:22 AM
+[2017.12.06-19.09.23:039][959]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.06-19.09.23:104][959]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.06-19.09.23:121][959]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.06-19.09.24:163][959]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.06-19.09.24:163][959]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2612
+[2017.12.06-19.09.28:686][959]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.12.06-19.09.28:687][959]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.06-19.09.28:687][959]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.06-19.09.28:687][959]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.06-19.09.28:687][959]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.06-19.09.28:687][959]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.06-19.09.28:876][959]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.06-19.09.28:876][959]MapCheck: New page: Toaster_Interior - Dec 6, 2017, 5:09:28 AM
+[2017.12.06-19.09.28:878][959]MapCheck:Warning: Performance Warning silver_boi_new_head_TPOSE_2 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2017.12.06-19.09.28:878][959]MapCheck:Warning: Warning silver_boi_new_head_TPOSE_2 Skeletal mesh actor has NULL SkeletalMesh property 
+[2017.12.06-19.09.28:878][959]MapCheck:Warning: Performance Warning silver_boy-TposeRigged_2 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2017.12.06-19.09.28:878][959]MapCheck:Warning: Warning silver_boy-TposeRigged_2 Skeletal mesh actor has NULL SkeletalMesh property 
+[2017.12.06-19.09.28:880][959]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.06-19.09.28:880][959]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.06-19.09.28:881][959]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.12.06-19.09.28:986][959]MapCheck: Info Map check complete: 1 Error(s), 6 Warning(s), took 110.204ms to complete.
+[2017.12.06-19.09.29:008][959]LogEditorBuildUtils: Build time 0:07
+[2017.12.06-19.09.36:939][621]Job is a success!
+[2017.12.06-19.09.37:672][622]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2017.12.06-19.09.37:672][622]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2017.12.06-19.09.37:672][622]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.12.06-19.09.37:672][622]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.12.06-19.09.37:672][622]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.12.06-19.09.37:672][622]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.12.06-19.09.37:717][622]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2017.12.06-19.09.37:717][622]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 512X256)
+[2017.12.06-19.09.37:717][622]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X128)
+[2017.12.06-19.09.37:745][622]Lightmass on ALF: 7.93 sec total, 257 ms importing, 82 ms setup, 960 ms photons, 6.57 sec processing, 0 ms extra exporting [112/112 mappings]. Threads: 26.2 sec total, 17.0 sec processing.
+[2017.12.06-19.09.37:767][622]LogStaticLightingSystem: Illumination: 14.7 sec (616 ms encoding lightmaps, 39 ms encoding shadowmaps)
+[2017.12.06-19.09.37:767][622]LogStaticLightingSystem: Lightmap texture memory:  2.5 MB (2.0 MB streaming, 0.5 MB non-streaming), 6 textures
+[2017.12.06-19.09.37:767][622]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (0.7 MB streaming, 0.7 MB non-streaming), 3 textures
+[2017.12.06-19.09.38:691][622]DumpUnbuiltLightIteractions
+[2017.12.06-19.09.38:691][622]Lights with unbuilt interactions: 0
+[2017.12.06-19.09.38:691][622]
+[2017.12.06-19.09.38:691][622]Primitives with unbuilt interactions: 0
+[2017.12.06-19.09.38:698][623]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.06-19.09.38:698][623]MapCheck: New page: Toaster_Interior - Dec 6, 2017, 5:09:38 AM
+[2017.12.06-19.09.38:700][623]MapCheck:Warning: Performance Warning silver_boi_new_head_TPOSE_2 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2017.12.06-19.09.38:700][623]MapCheck:Warning: Warning silver_boi_new_head_TPOSE_2 Skeletal mesh actor has NULL SkeletalMesh property 
+[2017.12.06-19.09.38:700][623]MapCheck:Warning: Performance Warning silver_boy-TposeRigged_2 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2017.12.06-19.09.38:700][623]MapCheck:Warning: Warning silver_boy-TposeRigged_2 Skeletal mesh actor has NULL SkeletalMesh property 
+[2017.12.06-19.09.38:701][623]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.06-19.09.38:701][623]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.06-19.09.38:805][623]MapCheck: Info Map check complete: 0 Error(s), 6 Warning(s), took 106.523ms to complete.
+[2017.12.06-19.09.50:859][928]LogTexture:Display: Building textures: brick_ancientDiagonal_2k_alb (AutoDXT, 2048X2048)
+[2017.12.06-19.09.57:025][928]LogTexture:Display: Building textures: brick_ancientDiagonal_2k_ao (AutoDXT, 2048X2048)
+[2017.12.06-19.09.58:521][928]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.06-19.09.58:679][928]LogTexture:Display: Building textures: brick_ancientDiagonal_2k_d (AutoDXT, 2048X2048)
+[2017.12.06-19.10.04:738][928]LogTexture:Display: Building textures: brick_ancientDiagonal_2k_g (AutoDXT, 2048X2048)
+[2017.12.06-19.10.06:282][928]LogTexture:Display: Building textures: brick_ancientDiagonal_2k_h (AutoDXT, 2048X2048)
+[2017.12.06-19.10.08:053][928]LogTexture:Display: Building textures: brick_ancientDiagonal_2k_n (BC5, 2048X2048)
+[2017.12.06-19.10.08:795][928]LogTexture:Display: Building textures: brick_ancientDiagonal_2k_s (AutoDXT, 2048X2048)
+[2017.12.06-19.10.12:749][928]LogTexture:Display: Building textures: Concrete_Square_2k_alb (AutoDXT, 2048X2048)
+[2017.12.06-19.10.18:702][928]LogTexture:Display: Building textures: Concrete_Square_2k_ao (AutoDXT, 2048X2048)
+[2017.12.06-19.10.20:201][928]LogTexture:Display: Building textures: Concrete_Square_2k_d (AutoDXT, 2048X2048)
+[2017.12.06-19.10.25:840][928]LogTexture:Display: Building textures: Concrete_Square_2k_g (AutoDXT, 2048X2048)
+[2017.12.06-19.10.27:639][928]LogTexture:Display: Building textures: Concrete_Square_2k_h (AutoDXT, 2048X2048)
+[2017.12.06-19.10.28:616][928]LogTexture:Display: Building textures: Concrete_Square_2k_n (BC5, 2048X2048)
+[2017.12.06-19.10.29:350][928]LogTexture:Display: Building textures: Concrete_Square_2k_s (AutoDXT, 2048X2048)
+[2017.12.06-19.10.31:198][928]LogTexture:Display: Building textures: Concrete_FlatSurface_2k_alb (AutoDXT, 2048X2048)
+[2017.12.06-19.10.37:429][928]LogTexture:Display: Building textures: Concrete_FlatSurface_2k_g (AutoDXT, 2048X2048)
+[2017.12.06-19.10.39:539][928]LogTexture:Display: Building textures: Concrete_FlatSurface_2k_n (BC5, 2048X2048)
+[2017.12.06-19.10.40:377][928]LogTexture:Display: Building textures: Concrete_FlatSurface_2k_s (AutoDXT, 2048X2048)
+[2017.12.06-19.10.44:675][928]LogTexture:Display: Building textures: Brick_GuiBigCastleWall_2k_alb (AutoDXT, 2048X2048)
+[2017.12.06-19.10.50:355][928]LogTexture:Display: Building textures: Brick_GuiBigCastleWall_2k_ao (AutoDXT, 2048X2048)
+[2017.12.06-19.10.52:071][928]LogTexture:Display: Building textures: Brick_GuiBigCastleWall_2k_d (AutoDXT, 2048X2048)
+[2017.12.06-19.10.57:739][928]LogTexture:Display: Building textures: Brick_GuiBigCastleWall_2k_g (AutoDXT, 2048X2048)
+[2017.12.06-19.10.59:265][928]LogTexture:Display: Building textures: Brick_GuiBigCastleWall_2k_h (AutoDXT, 2048X2048)
+[2017.12.06-19.11.00:381][928]LogTexture:Display: Building textures: Brick_GuiBigCastleWall_2k_mask (AutoDXT, 2048X2048)
+[2017.12.06-19.11.00:876][928]LogTexture:Display: Building textures: Brick_GuiBigCastleWall_2k_n (BC5, 2048X2048)
+[2017.12.06-19.11.01:527][928]LogTexture:Display: Building textures: Brick_GuiBigCastleWall_2k_s (AutoDXT, 2048X2048)
+[2017.12.06-19.11.03:058][928]LogTexture:Display: Building textures: brick_guiGen_2k_alb (AutoDXT, 2048X2048)
+[2017.12.06-19.11.09:137][928]LogTexture:Display: Building textures: brick_guiGen_2k_d (AutoDXT, 2048X2048)
+[2017.12.06-19.11.15:057][928]LogTexture:Display: Building textures: brick_guiGen_2k_g (AutoDXT, 2048X2048)
+[2017.12.06-19.11.16:514][928]LogTexture:Display: Building textures: brick_guiGen_2k_h (AutoDXT, 2048X2048)
+[2017.12.06-19.11.17:922][928]LogTexture:Display: Building textures: brick_guiGen_2k_n (BC5, 2048X2048)
+[2017.12.06-19.11.18:686][928]LogTexture:Display: Building textures: brick_guiGen_2k_s (AutoDXT, 2048X2048)
+[2017.12.06-19.11.21:264][928]LogTexture:Display: Building textures: Brick_chicagoStyle_2k_alb (AutoDXT, 2048X2048)
+[2017.12.06-19.11.27:180][928]LogTexture:Display: Building textures: Brick_chicagoStyle_2k_ao (AutoDXT, 2048X2048)
+[2017.12.06-19.11.30:757][928]LogTexture:Display: Building textures: Brick_chicagoStyle_2k_d (AutoDXT, 2048X2048)
+[2017.12.06-19.11.37:382][928]LogTexture:Display: Building textures: Brick_chicagoStyle_2k_g (AutoDXT, 2048X2048)
+[2017.12.06-19.11.38:954][928]LogTexture:Display: Building textures: Brick_chicagoStyle_2k_h (AutoDXT, 2048X2048)
+[2017.12.06-19.11.41:431][928]LogTexture:Display: Building textures: Brick_chicagoStyle_2k_n (BC5, 2048X2048)
+[2017.12.06-19.11.42:237][928]LogTexture:Display: Building textures: Brick_chicagoStyle_2k_s (AutoDXT, 2048X2048)
+[2017.12.06-19.11.45:759][928]LogTexture:Display: Building textures: Brick_BathStone_2k_alb (AutoDXT, 2048X2048)
+[2017.12.06-19.11.50:664][928]LogTexture:Display: Building textures: Brick_BathStone_2k_ao (AutoDXT, 2048X2048)
+[2017.12.06-19.11.52:808][928]LogTexture:Display: Building textures: Brick_BathStone_2k_d (AutoDXT, 2048X2048)
+[2017.12.06-19.11.57:767][928]LogTexture:Display: Building textures: Brick_BathStone_2k_g (AutoDXT, 2048X2048)
+[2017.12.06-19.11.58:743][928]LogTexture:Display: Building textures: Brick_BathStone_2k_h (AutoDXT, 2048X2048)
+[2017.12.06-19.11.59:495][928]LogTexture:Display: Building textures: Brick_BathStone_2k_n (BC5, 2048X2048)
+[2017.12.06-19.12.00:142][928]LogTexture:Display: Building textures: Brick_BathStone_2k_s (AutoDXT, 2048X2048)
+[2017.12.06-19.12.03:338][928]LogSavePackage: Save=106.54ms
+[2017.12.06-19.12.03:338][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_ancientDiagonal_2k_albBA543E0A48ACD77FEB3EC9B682CD3516.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal/brick_ancientDiagonal_2k_alb.uasset'
+[2017.12.06-19.12.03:345][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal/brick_ancientDiagonal_2k_alb.uasset
+[2017.12.06-19.12.03:402][928]LogSavePackage: Save=42.67ms
+[2017.12.06-19.12.03:402][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_ancientDiagonal_2k_ao939FC1EE4F94C48A9526E9B3A6EF1C26.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal/brick_ancientDiagonal_2k_ao.uasset'
+[2017.12.06-19.12.03:410][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal/brick_ancientDiagonal_2k_ao.uasset
+[2017.12.06-19.12.03:530][928]LogSavePackage: Save=100.28ms
+[2017.12.06-19.12.03:530][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_ancientDiagonal_2k_d02A7E07346E5C8CA33A178B8935233BA.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal/brick_ancientDiagonal_2k_d.uasset'
+[2017.12.06-19.12.03:537][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal/brick_ancientDiagonal_2k_d.uasset
+[2017.12.06-19.12.03:590][928]LogSavePackage: Save=39.29ms
+[2017.12.06-19.12.03:590][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_ancientDiagonal_2k_gDAB1F5154D6172D6BE66D5A871DB9C4C.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal/brick_ancientDiagonal_2k_g.uasset'
+[2017.12.06-19.12.03:598][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal/brick_ancientDiagonal_2k_g.uasset
+[2017.12.06-19.12.03:641][928]LogSavePackage: Save=23.96ms
+[2017.12.06-19.12.03:641][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_ancientDiagonal_2k_h01803BDA46BE0C1B4FB3BBBE21420D51.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal/brick_ancientDiagonal_2k_h.uasset'
+[2017.12.06-19.12.03:648][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal/brick_ancientDiagonal_2k_h.uasset
+[2017.12.06-19.12.03:739][928]LogSavePackage: Save=73.89ms
+[2017.12.06-19.12.03:739][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_ancientDiagonal_2k_n08F28FCF4675A49572A0D584D8873D11.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal/brick_ancientDiagonal_2k_n.uasset'
+[2017.12.06-19.12.03:746][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal/brick_ancientDiagonal_2k_n.uasset
+[2017.12.06-19.12.03:842][928]LogSavePackage: Save=82.19ms
+[2017.12.06-19.12.03:842][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_ancientDiagonal_2k_s1256AFEE49E6E31E4C95988546380A3F.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal/brick_ancientDiagonal_2k_s.uasset'
+[2017.12.06-19.12.03:850][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal/brick_ancientDiagonal_2k_s.uasset
+[2017.12.06-19.12.04:419][928]LogSavePackage: Save=90.17ms
+[2017.12.06-19.12.04:419][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_Square_2k_alb26B6B99B40D001783182A9919C468FCE.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_Square/Concrete_Square_2k_alb.uasset'
+[2017.12.06-19.12.04:427][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_Square/Concrete_Square_2k_alb.uasset
+[2017.12.06-19.12.04:490][928]LogSavePackage: Save=32.87ms
+[2017.12.06-19.12.04:490][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_Square_2k_ao65B4B538470EAAF897E097810476692F.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_Square/Concrete_Square_2k_ao.uasset'
+[2017.12.06-19.12.04:500][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_Square/Concrete_Square_2k_ao.uasset
+[2017.12.06-19.12.04:631][928]LogSavePackage: Save=102.91ms
+[2017.12.06-19.12.04:631][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_Square_2k_dC428CA5A4047523182259EB7C36FC535.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_Square/Concrete_Square_2k_d.uasset'
+[2017.12.06-19.12.04:639][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_Square/Concrete_Square_2k_d.uasset
+[2017.12.06-19.12.04:695][928]LogSavePackage: Save=40.77ms
+[2017.12.06-19.12.04:695][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_Square_2k_g56CF1D8145ECA03A586458BEEB9C8E72.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_Square/Concrete_Square_2k_g.uasset'
+[2017.12.06-19.12.04:704][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_Square/Concrete_Square_2k_g.uasset
+[2017.12.06-19.12.04:735][928]LogSavePackage: Save=16.17ms
+[2017.12.06-19.12.04:735][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_Square_2k_h31E6067A436992B73F4C2FA83A5AB345.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_Square/Concrete_Square_2k_h.uasset'
+[2017.12.06-19.12.04:743][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_Square/Concrete_Square_2k_h.uasset
+[2017.12.06-19.12.04:846][928]LogSavePackage: Save=87.83ms
+[2017.12.06-19.12.04:846][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_Square_2k_nA60472914A1FECA74DEEBFB02887D972.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_Square/Concrete_Square_2k_n.uasset'
+[2017.12.06-19.12.04:859][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_Square/Concrete_Square_2k_n.uasset
+[2017.12.06-19.12.04:919][928]LogSavePackage: Save=44.71ms
+[2017.12.06-19.12.04:919][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_Square_2k_s87FC4A1A4EB417404DE6C38B9548F406.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_Square/Concrete_Square_2k_s.uasset'
+[2017.12.06-19.12.04:934][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_Square/Concrete_Square_2k_s.uasset
+[2017.12.06-19.12.05:555][928]LogSavePackage: Save=106.69ms
+[2017.12.06-19.12.05:555][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_FlatSurface_2k_alb8AE798B14477A191E65DAEB27C97718E.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_FlatSurface/Concrete_FlatSurface_2k_alb.uasset'
+[2017.12.06-19.12.05:562][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_FlatSurface/Concrete_FlatSurface_2k_alb.uasset
+[2017.12.06-19.12.05:617][928]LogSavePackage: Save=39.82ms
+[2017.12.06-19.12.05:617][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_FlatSurface_2k_g353A9C5D4D17D2FCF99697A24B02C5CC.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_FlatSurface/Concrete_FlatSurface_2k_g.uasset'
+[2017.12.06-19.12.05:626][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_FlatSurface/Concrete_FlatSurface_2k_g.uasset
+[2017.12.06-19.12.05:753][928]LogSavePackage: Save=112.17ms
+[2017.12.06-19.12.05:753][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_FlatSurface_2k_n8C111B7D4DF531ABC37714ADBD886064.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_FlatSurface/Concrete_FlatSurface_2k_n.uasset'
+[2017.12.06-19.12.05:761][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_FlatSurface/Concrete_FlatSurface_2k_n.uasset
+[2017.12.06-19.12.05:867][928]LogSavePackage: Save=92.82ms
+[2017.12.06-19.12.05:867][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_FlatSurface_2k_s0B80CE5E45BA553A1147A886B96EA85E.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_FlatSurface/Concrete_FlatSurface_2k_s.uasset'
+[2017.12.06-19.12.05:875][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Concrete_FlatSurface/Concrete_FlatSurface_2k_s.uasset
+[2017.12.06-19.12.06:322][928]LogSavePackage: Save=97.35ms
+[2017.12.06-19.12.06:322][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_GuiBigCastleWall_2k_alb42265DFA4350D1BF8232FF8BF2B7C002.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_alb.uasset'
+[2017.12.06-19.12.06:330][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_alb.uasset
+[2017.12.06-19.12.06:376][928]LogSavePackage: Save=31.77ms
+[2017.12.06-19.12.06:376][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_GuiBigCastleWall_2k_ao6CC97A0D49FCDE92DA692FBFFD960DBD.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_ao.uasset'
+[2017.12.06-19.12.06:384][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_ao.uasset
+[2017.12.06-19.12.06:500][928]LogSavePackage: Save=101.41ms
+[2017.12.06-19.12.06:500][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_GuiBigCastleWall_2k_dD3EDB5B94661AB6E4C1BCEA00F6A1A90.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_d.uasset'
+[2017.12.06-19.12.06:509][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_d.uasset
+[2017.12.06-19.12.06:575][928]LogSavePackage: Save=52.04ms
+[2017.12.06-19.12.06:575][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_GuiBigCastleWall_2k_gEFA9C4DE4A697512740B33A7592208A8.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_g.uasset'
+[2017.12.06-19.12.06:583][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_g.uasset
+[2017.12.06-19.12.06:635][928]LogSavePackage: Save=37.87ms
+[2017.12.06-19.12.06:635][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_GuiBigCastleWall_2k_h464498EA4E3582CC7E027AB3EE565B7B.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_h.uasset'
+[2017.12.06-19.12.06:642][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_h.uasset
+[2017.12.06-19.12.06:673][928]LogSavePackage: Save=12.30ms
+[2017.12.06-19.12.06:673][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_GuiBigCastleWall_2k_mask64955167484215F79811E7AA43C27DFE.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_mask.uasset'
+[2017.12.06-19.12.06:681][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_mask.uasset
+[2017.12.06-19.12.06:765][928]LogSavePackage: Save=59.43ms
+[2017.12.06-19.12.06:765][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_GuiBigCastleWall_2k_n92CBB7B04896F99C2D0C728052417FE9.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_n.uasset'
+[2017.12.06-19.12.06:772][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_n.uasset
+[2017.12.06-19.12.06:846][928]LogSavePackage: Save=59.60ms
+[2017.12.06-19.12.06:846][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_GuiBigCastleWall_2k_s6AD9EFEF4C21375E8866D6AF71A2C528.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_s.uasset'
+[2017.12.06-19.12.06:855][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_s.uasset
+[2017.12.06-19.12.07:474][928]LogSavePackage: Save=106.06ms
+[2017.12.06-19.12.07:474][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_guiGen_2k_albA63C6A3545E038F7DF8409AF176EC68D.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_guiGen/brick_guiGen_2k_alb.uasset'
+[2017.12.06-19.12.07:482][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_guiGen/brick_guiGen_2k_alb.uasset
+[2017.12.06-19.12.07:610][928]LogSavePackage: Save=110.80ms
+[2017.12.06-19.12.07:610][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_guiGen_2k_d6C5B26E94A1D14792FF17C89776AFBD0.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_guiGen/brick_guiGen_2k_d.uasset'
+[2017.12.06-19.12.07:618][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_guiGen/brick_guiGen_2k_d.uasset
+[2017.12.06-19.12.07:698][928]LogSavePackage: Save=61.04ms
+[2017.12.06-19.12.07:698][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_guiGen_2k_g9AEC07894CCF937ED834E59188627271.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_guiGen/brick_guiGen_2k_g.uasset'
+[2017.12.06-19.12.07:707][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_guiGen/brick_guiGen_2k_g.uasset
+[2017.12.06-19.12.07:753][928]LogSavePackage: Save=28.91ms
+[2017.12.06-19.12.07:753][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_guiGen_2k_h26E1EA1B495430D655049A84A2074E7D.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_guiGen/brick_guiGen_2k_h.uasset'
+[2017.12.06-19.12.07:761][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_guiGen/brick_guiGen_2k_h.uasset
+[2017.12.06-19.12.07:901][928]LogSavePackage: Save=124.81ms
+[2017.12.06-19.12.07:901][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_guiGen_2k_n22E5D97E4EB9D9780618849E8355E0A0.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_guiGen/brick_guiGen_2k_n.uasset'
+[2017.12.06-19.12.07:909][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_guiGen/brick_guiGen_2k_n.uasset
+[2017.12.06-19.12.08:029][928]LogSavePackage: Save=99.16ms
+[2017.12.06-19.12.08:029][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_guiGen_2k_s7F2183BD4005D72882BFEABAA8B898C8.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_guiGen/brick_guiGen_2k_s.uasset'
+[2017.12.06-19.12.08:037][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_guiGen/brick_guiGen_2k_s.uasset
+[2017.12.06-19.12.08:836][928]LogSavePackage: Save=152.36ms
+[2017.12.06-19.12.08:836][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_chicagoStyle_2k_albA397B9704B4CD6BFF06BB19864C139E5.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_chicagoStyle/Brick_chicagoStyle_2k_alb.uasset'
+[2017.12.06-19.12.08:843][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_chicagoStyle/Brick_chicagoStyle_2k_alb.uasset
+[2017.12.06-19.12.08:917][928]LogSavePackage: Save=59.07ms
+[2017.12.06-19.12.08:917][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_chicagoStyle_2k_ao4340FFAD490E7AB1AFA31C9AE11725E8.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_chicagoStyle/Brick_chicagoStyle_2k_ao.uasset'
+[2017.12.06-19.12.08:926][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_chicagoStyle/Brick_chicagoStyle_2k_ao.uasset
+[2017.12.06-19.12.09:164][928]LogSavePackage: Save=222.31ms
+[2017.12.06-19.12.09:164][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_chicagoStyle_2k_d8D18A1F741575180EA1AA98BE7AEC704.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_chicagoStyle/Brick_chicagoStyle_2k_d.uasset'
+[2017.12.06-19.12.09:173][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_chicagoStyle/Brick_chicagoStyle_2k_d.uasset
+[2017.12.06-19.12.09:244][928]LogSavePackage: Save=45.03ms
+[2017.12.06-19.12.09:244][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_chicagoStyle_2k_gE2B2E2BF4BB7BC7A729F5BA2BA6155EA.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_chicagoStyle/Brick_chicagoStyle_2k_g.uasset'
+[2017.12.06-19.12.09:254][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_chicagoStyle/Brick_chicagoStyle_2k_g.uasset
+[2017.12.06-19.12.09:314][928]LogSavePackage: Save=44.28ms
+[2017.12.06-19.12.09:314][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_chicagoStyle_2k_h805C08B843CCAABA888C299F63B4C56D.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_chicagoStyle/Brick_chicagoStyle_2k_h.uasset'
+[2017.12.06-19.12.09:322][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_chicagoStyle/Brick_chicagoStyle_2k_h.uasset
+[2017.12.06-19.12.09:461][928]LogSavePackage: Save=123.55ms
+[2017.12.06-19.12.09:461][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_chicagoStyle_2k_n2C717C4E40D4A239F8035C9C0E4D4164.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_chicagoStyle/Brick_chicagoStyle_2k_n.uasset'
+[2017.12.06-19.12.09:471][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_chicagoStyle/Brick_chicagoStyle_2k_n.uasset
+[2017.12.06-19.12.09:609][928]LogSavePackage: Save=112.09ms
+[2017.12.06-19.12.09:609][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_chicagoStyle_2k_sF81D30EB4E59BB8AF19994A6A2437697.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_chicagoStyle/Brick_chicagoStyle_2k_s.uasset'
+[2017.12.06-19.12.09:619][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_chicagoStyle/Brick_chicagoStyle_2k_s.uasset
+[2017.12.06-19.12.10:232][928]LogSavePackage: Save=101.49ms
+[2017.12.06-19.12.10:232][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_BathStone_2k_alb425A60AC4084A7F8003CC48D5C73628B.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_BathStone/Brick_BathStone_2k_alb.uasset'
+[2017.12.06-19.12.10:240][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_BathStone/Brick_BathStone_2k_alb.uasset
+[2017.12.06-19.12.10:316][928]LogSavePackage: Save=59.23ms
+[2017.12.06-19.12.10:316][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_BathStone_2k_aoFDB568794CBF4647899A29A98819A6F8.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_BathStone/Brick_BathStone_2k_ao.uasset'
+[2017.12.06-19.12.10:330][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_BathStone/Brick_BathStone_2k_ao.uasset
+[2017.12.06-19.12.10:443][928]LogSavePackage: Save=92.72ms
+[2017.12.06-19.12.10:443][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_BathStone_2k_d7293E80946019C1CBF2626AD3970061E.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_BathStone/Brick_BathStone_2k_d.uasset'
+[2017.12.06-19.12.10:456][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_BathStone/Brick_BathStone_2k_d.uasset
+[2017.12.06-19.12.10:503][928]LogSavePackage: Save=30.93ms
+[2017.12.06-19.12.10:503][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_BathStone_2k_g823E3AF446D759A29FC0948489D5819B.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_BathStone/Brick_BathStone_2k_g.uasset'
+[2017.12.06-19.12.10:514][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_BathStone/Brick_BathStone_2k_g.uasset
+[2017.12.06-19.12.10:562][928]LogSavePackage: Save=10.82ms
+[2017.12.06-19.12.10:562][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_BathStone_2k_h10A15BA04F8D4C539DCA619B3FD1EA61.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_BathStone/Brick_BathStone_2k_h.uasset'
+[2017.12.06-19.12.10:570][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_BathStone/Brick_BathStone_2k_h.uasset
+[2017.12.06-19.12.10:659][928]LogSavePackage: Save=67.42ms
+[2017.12.06-19.12.10:659][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_BathStone_2k_nEB94DDF84DE2A4C1CD5AE39550FB6B77.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_BathStone/Brick_BathStone_2k_n.uasset'
+[2017.12.06-19.12.10:667][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_BathStone/Brick_BathStone_2k_n.uasset
+[2017.12.06-19.12.10:764][928]LogSavePackage: Save=74.83ms
+[2017.12.06-19.12.10:764][928]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_BathStone_2k_s1012AAE24B0A498BA54F63B7DCB402E0.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_BathStone/Brick_BathStone_2k_s.uasset'
+[2017.12.06-19.12.10:774][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Brick_BathStone/Brick_BathStone_2k_s.uasset
+[2017.12.06-19.12.25:179][512]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.12.06-19.12.26:541][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.06-19.12.28:652][813]LogLinker:Warning: Can't find file '/Game/GTFreeMaterials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_alb'
+[2017.12.06-19.12.28:652][813]LogLinker:Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_alb' while loading ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal.uasset.
+[2017.12.06-19.12.28:652][813]LoadErrors:Error: Error /Game/Materials/brick_ancientDiagonal : Can't find file for asset. /Game/GTFreeMaterials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_alb
+[2017.12.06-19.12.28:652][813]LogLinker:Warning: Can't find file '/Game/GTFreeMaterials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_n'
+[2017.12.06-19.12.28:652][813]LogLinker:Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_n' while loading ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal.uasset.
+[2017.12.06-19.12.28:652][813]LoadErrors:Error: Error /Game/Materials/brick_ancientDiagonal : Can't find file for asset. /Game/GTFreeMaterials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_n
+[2017.12.06-19.12.28:652][813]LogLinker:Warning: Can't find file '/Game/GTFreeMaterials/Textures/Concrete_Square/Concrete_Square_2k_h'
+[2017.12.06-19.12.28:653][813]LogLinker:Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Concrete_Square/Concrete_Square_2k_h' while loading ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal.uasset.
+[2017.12.06-19.12.28:653][813]LoadErrors:Error: Error /Game/Materials/brick_ancientDiagonal : Can't find file for asset. /Game/GTFreeMaterials/Textures/Concrete_Square/Concrete_Square_2k_h
+[2017.12.06-19.12.28:653][813]LogLinker:Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
+[2017.12.06-19.12.28:653][813]LogLinker:Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal.uasset.
+[2017.12.06-19.12.28:653][813]LoadErrors:Error: Error /Game/Materials/brick_ancientDiagonal : Can't find file for asset. /Game/GTFreeMaterials/Textures/T_MacroVariation2
+[2017.12.06-19.12.28:653][813]LogLinker:Warning: Can't find file '/Game/GTFreeMaterials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_alb'
+[2017.12.06-19.12.28:653][813]LogLinker:Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_alb' while loading ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal.uasset.
+[2017.12.06-19.12.28:653][813]LogLinker:Warning: Can't find file '/Game/GTFreeMaterials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_n'
+[2017.12.06-19.12.28:653][813]LogLinker:Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_n' while loading ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal.uasset.
+[2017.12.06-19.12.28:654][813]LogLinker:Warning: Can't find file '/Game/GTFreeMaterials/Textures/Concrete_Square/Concrete_Square_2k_h'
+[2017.12.06-19.12.28:654][813]LogLinker:Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Concrete_Square/Concrete_Square_2k_h' while loading ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal.uasset.
+[2017.12.06-19.12.28:654][813]LogLinker:Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
+[2017.12.06-19.12.28:654][813]LogLinker:Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/brick_ancientDiagonal.uasset.
+[2017.12.06-19.12.28:657][813]LogLinker:Warning: Can't find file '/Game/GTFreeMaterials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_alb'
+[2017.12.06-19.12.28:657][813]LoadErrors: Info Failed to load /Game/GTFreeMaterials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_alb.brick_ancientDiagonal_2k_alb Referenced by MaterialExpressionTextureSample_0
+[2017.12.06-19.12.28:657][813]LogLinker:Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_alb' while loading NULL.
+[2017.12.06-19.12.28:657][813]LogLinker:Warning: Can't find file '/Game/GTFreeMaterials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_n'
+[2017.12.06-19.12.28:657][813]LoadErrors: Info Failed to load /Game/GTFreeMaterials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_n.brick_ancientDiagonal_2k_n Referenced by MaterialExpressionTextureSample_1
+[2017.12.06-19.12.28:657][813]LogLinker:Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_n' while loading NULL.
+[2017.12.06-19.12.28:658][813]LogLinker:Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
+[2017.12.06-19.12.28:658][813]LoadErrors: Info Failed to load /Game/GTFreeMaterials/Textures/T_MacroVariation2.T_MacroVariation2 Referenced by MaterialExpressionTextureSample_25
+[2017.12.06-19.12.28:658][813]LogLinker:Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading NULL.
+[2017.12.06-19.12.28:658][813]LogLinker:Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
+[2017.12.06-19.12.28:658][813]LoadErrors: Info Failed to load /Game/GTFreeMaterials/Textures/T_MacroVariation2.T_MacroVariation2 Referenced by MaterialExpressionTextureSample_26
+[2017.12.06-19.12.28:658][813]LogLinker:Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading NULL.
+[2017.12.06-19.12.28:658][813]LogLinker:Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
+[2017.12.06-19.12.28:658][813]LoadErrors: Info Failed to load /Game/GTFreeMaterials/Textures/T_MacroVariation2.T_MacroVariation2 Referenced by MaterialExpressionTextureSample_27
+[2017.12.06-19.12.28:658][813]LogLinker:Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading NULL.
+[2017.12.06-19.12.28:658][813]LogLinker:Warning: Can't find file '/Game/GTFreeMaterials/Textures/Concrete_Square/Concrete_Square_2k_h'
+[2017.12.06-19.12.28:659][813]LoadErrors: Info Failed to load /Game/GTFreeMaterials/Textures/Concrete_Square/Concrete_Square_2k_h.Concrete_Square_2k_h Referenced by MaterialExpressionTextureSampleParameter2D_6
+[2017.12.06-19.12.28:659][813]LogLinker:Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Concrete_Square/Concrete_Square_2k_h' while loading NULL.
+[2017.12.06-19.12.28:661][813]LogMaterial: Missing cached shader map for material brick_ancientDiagonal, compiling. 
+[2017.12.06-19.12.28:662][813]LogMaterial:Warning: Failed to compile Material /Game/Materials/brick_ancientDiagonal.brick_ancientDiagonal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.06-19.12.28:662][813]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.06-19.12.28:744][813]LogMaterial: Missing cached shader map for material brick_ancientDiagonal, compiling. 
+[2017.12.06-19.12.28:744][813]LogMaterial:Warning: Failed to compile Material /Engine/Transient.brick_ancientDiagonal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.06-19.12.28:744][813]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.06-19.12.28:867][813]LogMaterial: Missing cached shader map for material brick_ancientDiagonal, compiling. 
+[2017.12.06-19.12.28:868][813]LogMaterial:Warning: Failed to compile Material /Engine/Transient.brick_ancientDiagonal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.06-19.12.28:868][813]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.06-19.12.28:875][813]LogMaterial: Missing cached shader map for material brick_ancientDiagonal, compiling. 
+[2017.12.06-19.12.28:876][813]LogMaterial:Warning: Failed to compile Material /Engine/Transient.brick_ancientDiagonal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.06-19.12.28:876][813]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.06-19.12.28:904][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_12, compiling. 
+[2017.12.06-19.12.28:906][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.12.06-19.12.28:907][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_5, compiling. 
+[2017.12.06-19.12.28:909][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.06-19.12.28:910][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_6, compiling. 
+[2017.12.06-19.12.28:912][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_25, compiling. 
+[2017.12.06-19.12.28:913][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_15, compiling. 
+[2017.12.06-19.12.28:915][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2017.12.06-19.12.28:916][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_16, compiling. 
+[2017.12.06-19.12.28:918][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_23, compiling. 
+[2017.12.06-19.12.28:920][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2017.12.06-19.12.28:922][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_17, compiling. 
+[2017.12.06-19.12.28:924][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_9, compiling. 
+[2017.12.06-19.12.28:926][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBumpOffset_4, compiling. 
+[2017.12.06-19.12.28:927][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_6, compiling. 
+[2017.12.06-19.12.28:929][813]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2017.12.06-19.12.28:938][813]LogSlate: Took 0.001668 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.06-19.12.33:682][128]LogSlate: Took 0.001456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.06-19.12.49:481][309]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.06-19.12.49:482][309]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.06-19.12.49:482][309]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.06-19.12.49:550][309]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.06-19.12.49:551][309]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.06-19.12.49:551][309]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.06-19.12.49:555][309]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.06-19.12.49:556][309]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.06-19.12.49:556][309]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.06-19.12.49:586][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_12, compiling. 
+[2017.12.06-19.12.49:588][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.12.06-19.12.49:589][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_5, compiling. 
+[2017.12.06-19.12.49:591][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.06-19.12.49:593][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_6, compiling. 
+[2017.12.06-19.12.49:594][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_25, compiling. 
+[2017.12.06-19.12.49:596][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_15, compiling. 
+[2017.12.06-19.12.49:597][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2017.12.06-19.12.49:598][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_16, compiling. 
+[2017.12.06-19.12.49:600][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_23, compiling. 
+[2017.12.06-19.12.49:602][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2017.12.06-19.12.49:604][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_17, compiling. 
+[2017.12.06-19.12.49:605][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_9, compiling. 
+[2017.12.06-19.12.49:607][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBumpOffset_4, compiling. 
+[2017.12.06-19.12.49:608][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_6, compiling. 
+[2017.12.06-19.12.49:721][310]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2017.12.06-19.13.12:802][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.06-19.14.01:713][435]LogSavePackage: Save=81.83ms
+[2017.12.06-19.14.01:713][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_ancientDiagonal_2k_sE87CFA684B7DA8EC1D4426BE3EC76405.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_s.uasset'
+[2017.12.06-19.14.01:722][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_s.uasset
+[2017.12.06-19.14.01:812][435]LogSavePackage: Save=75.17ms
+[2017.12.06-19.14.01:812][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_ancientDiagonal_2k_n8FD5FC8D435DB46B634702B468465106.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_n.uasset'
+[2017.12.06-19.14.01:820][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_n.uasset
+[2017.12.06-19.14.01:861][435]LogSavePackage: Save=26.76ms
+[2017.12.06-19.14.01:861][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_ancientDiagonal_2k_h1B1875534EFDCD05947A9492FB521AFE.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_h.uasset'
+[2017.12.06-19.14.01:869][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_h.uasset
+[2017.12.06-19.14.01:925][435]LogSavePackage: Save=42.43ms
+[2017.12.06-19.14.01:925][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_ancientDiagonal_2k_g0EA516C04F6CF2566438B9BE42BD8298.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_g.uasset'
+[2017.12.06-19.14.01:932][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_g.uasset
+[2017.12.06-19.14.02:049][435]LogSavePackage: Save=102.33ms
+[2017.12.06-19.14.02:049][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_ancientDiagonal_2k_d38CCB6634344E3BE2BFA8B8C1A72E552.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_d.uasset'
+[2017.12.06-19.14.02:056][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_d.uasset
+[2017.12.06-19.14.02:115][435]LogSavePackage: Save=44.53ms
+[2017.12.06-19.14.02:115][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_ancientDiagonal_2k_ao5852D21A44192A1CBB658D817C242361.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_ao.uasset'
+[2017.12.06-19.14.02:122][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_ao.uasset
+[2017.12.06-19.14.02:237][435]LogSavePackage: Save=100.82ms
+[2017.12.06-19.14.02:237][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_ancientDiagonal_2k_albA12523154CE594B4E276B1ABDE17891B.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_alb.uasset'
+[2017.12.06-19.14.02:244][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_ancientDiagonal/brick_ancientDiagonal_2k_alb.uasset
+[2017.12.06-19.14.02:759][435]LogSavePackage: Save=61.45ms
+[2017.12.06-19.14.02:759][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_BathStone_2k_s45F35D1E4260321E30E47786DA4DBFFE.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_BathStone/Brick_BathStone_2k_s.uasset'
+[2017.12.06-19.14.02:766][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_BathStone/Brick_BathStone_2k_s.uasset
+[2017.12.06-19.14.02:813][435]LogSavePackage: Save=31.35ms
+[2017.12.06-19.14.02:813][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_BathStone_2k_n9AF2DFAD4FEE0A6AF870BAA2B19F6F0C.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_BathStone/Brick_BathStone_2k_n.uasset'
+[2017.12.06-19.14.02:821][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_BathStone/Brick_BathStone_2k_n.uasset
+[2017.12.06-19.14.02:844][435]LogSavePackage: Save=9.16ms
+[2017.12.06-19.14.02:844][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_BathStone_2k_hD7DAC28C499B3EC3D9B1E4963EF0CEEE.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_BathStone/Brick_BathStone_2k_h.uasset'
+[2017.12.06-19.14.02:852][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_BathStone/Brick_BathStone_2k_h.uasset
+[2017.12.06-19.14.02:894][435]LogSavePackage: Save=28.44ms
+[2017.12.06-19.14.02:894][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_BathStone_2k_g284263F74297997205EC31BAF05C4A34.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_BathStone/Brick_BathStone_2k_g.uasset'
+[2017.12.06-19.14.02:902][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_BathStone/Brick_BathStone_2k_g.uasset
+[2017.12.06-19.14.03:006][435]LogSavePackage: Save=90.47ms
+[2017.12.06-19.14.03:006][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_BathStone_2k_d35610C0A4F5E5057A6A981AA7077B349.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_BathStone/Brick_BathStone_2k_d.uasset'
+[2017.12.06-19.14.03:016][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_BathStone/Brick_BathStone_2k_d.uasset
+[2017.12.06-19.14.03:079][435]LogSavePackage: Save=48.61ms
+[2017.12.06-19.14.03:079][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_BathStone_2k_aoE099A40742EE9DCF15033AB591FA4573.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_BathStone/Brick_BathStone_2k_ao.uasset'
+[2017.12.06-19.14.03:088][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_BathStone/Brick_BathStone_2k_ao.uasset
+[2017.12.06-19.14.03:180][435]LogSavePackage: Save=78.09ms
+[2017.12.06-19.14.03:180][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_BathStone_2k_alb529C353D48BC4F11BCDF3787EC50208D.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_BathStone/Brick_BathStone_2k_alb.uasset'
+[2017.12.06-19.14.03:187][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_BathStone/Brick_BathStone_2k_alb.uasset
+[2017.12.06-19.14.03:718][435]LogSavePackage: Save=77.06ms
+[2017.12.06-19.14.03:718][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_chicagoStyle_2k_s74405A64422B7A72C888A8A3EA6059D4.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_chicagoStyle/Brick_chicagoStyle_2k_s.uasset'
+[2017.12.06-19.14.03:726][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_chicagoStyle/Brick_chicagoStyle_2k_s.uasset
+[2017.12.06-19.14.03:844][435]LogSavePackage: Save=103.70ms
+[2017.12.06-19.14.03:844][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_chicagoStyle_2k_n5714D969480092197130B393E6E34087.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_chicagoStyle/Brick_chicagoStyle_2k_n.uasset'
+[2017.12.06-19.14.03:852][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_chicagoStyle/Brick_chicagoStyle_2k_n.uasset
+[2017.12.06-19.14.03:889][435]LogSavePackage: Save=22.33ms
+[2017.12.06-19.14.03:889][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_chicagoStyle_2k_hA0509E2049F2C13F0A78D5855C9D9033.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_chicagoStyle/Brick_chicagoStyle_2k_h.uasset'
+[2017.12.06-19.14.03:897][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_chicagoStyle/Brick_chicagoStyle_2k_h.uasset
+[2017.12.06-19.14.03:949][435]LogSavePackage: Save=37.58ms
+[2017.12.06-19.14.03:949][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_chicagoStyle_2k_g05E084AA410FEA716C1EA8BAD7ED151C.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_chicagoStyle/Brick_chicagoStyle_2k_g.uasset'
+[2017.12.06-19.14.03:957][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_chicagoStyle/Brick_chicagoStyle_2k_g.uasset
+[2017.12.06-19.14.04:106][435]LogSavePackage: Save=136.06ms
+[2017.12.06-19.14.04:106][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_chicagoStyle_2k_d7D7AB6A04F8A3D982325EFA503985453.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_chicagoStyle/Brick_chicagoStyle_2k_d.uasset'
+[2017.12.06-19.14.04:114][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_chicagoStyle/Brick_chicagoStyle_2k_d.uasset
+[2017.12.06-19.14.04:178][435]LogSavePackage: Save=50.05ms
+[2017.12.06-19.14.04:178][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_chicagoStyle_2k_ao89BDB4AB4A444DA59A1AA58F0EB4FCEE.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_chicagoStyle/Brick_chicagoStyle_2k_ao.uasset'
+[2017.12.06-19.14.04:185][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_chicagoStyle/Brick_chicagoStyle_2k_ao.uasset
+[2017.12.06-19.14.04:314][435]LogSavePackage: Save=114.76ms
+[2017.12.06-19.14.04:314][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_chicagoStyle_2k_albC172AC884CC1F5280B046BBD5903E725.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_chicagoStyle/Brick_chicagoStyle_2k_alb.uasset'
+[2017.12.06-19.14.04:322][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_chicagoStyle/Brick_chicagoStyle_2k_alb.uasset
+[2017.12.06-19.14.04:814][435]LogSavePackage: Save=22.10ms
+[2017.12.06-19.14.04:814][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_GuiBigCastleWall_2k_h271A56E0426D40CA581FB78C1F581F14.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_h.uasset'
+[2017.12.06-19.14.04:821][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_h.uasset
+[2017.12.06-19.14.04:900][435]LogSavePackage: Save=64.46ms
+[2017.12.06-19.14.04:900][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_GuiBigCastleWall_2k_sDBFE54764C8AE593C0C6C7825DBB138A.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_s.uasset'
+[2017.12.06-19.14.04:908][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_s.uasset
+[2017.12.06-19.14.04:985][435]LogSavePackage: Save=61.48ms
+[2017.12.06-19.14.04:985][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_GuiBigCastleWall_2k_n17302A794D7AC332F880C882334A551A.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_n.uasset'
+[2017.12.06-19.14.04:999][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_n.uasset
+[2017.12.06-19.14.05:027][435]LogSavePackage: Save=10.46ms
+[2017.12.06-19.14.05:027][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_GuiBigCastleWall_2k_mask10077DFB49276FB23127459EBD94FCFD.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_mask.uasset'
+[2017.12.06-19.14.05:035][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_mask.uasset
+[2017.12.06-19.14.05:097][435]LogSavePackage: Save=48.20ms
+[2017.12.06-19.14.05:097][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_GuiBigCastleWall_2k_gC7B1D5264AF9B4E397DDC1A1229CA8D9.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_g.uasset'
+[2017.12.06-19.14.05:105][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_g.uasset
+[2017.12.06-19.14.05:217][435]LogSavePackage: Save=98.10ms
+[2017.12.06-19.14.05:217][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_GuiBigCastleWall_2k_dDE94609C40C47C236A0D59B75E2B2A6A.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_d.uasset'
+[2017.12.06-19.14.05:225][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_d.uasset
+[2017.12.06-19.14.05:269][435]LogSavePackage: Save=30.96ms
+[2017.12.06-19.14.05:269][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_GuiBigCastleWall_2k_aoA7195D084A00DADB4677B1B966599097.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_ao.uasset'
+[2017.12.06-19.14.05:277][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_ao.uasset
+[2017.12.06-19.14.05:389][435]LogSavePackage: Save=98.26ms
+[2017.12.06-19.14.05:389][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Brick_GuiBigCastleWall_2k_alb2BF2C7D14690E5BDC7272A9A00687A40.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_alb.uasset'
+[2017.12.06-19.14.05:396][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Brick_GuiBigCastleWall/Brick_GuiBigCastleWall_2k_alb.uasset
+[2017.12.06-19.14.05:934][435]LogSavePackage: Save=58.31ms
+[2017.12.06-19.14.05:934][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_guiGen_2k_s094EA14D4D33BB5FB6D844BF4963F025.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_guiGen/brick_guiGen_2k_s.uasset'
+[2017.12.06-19.14.05:942][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_guiGen/brick_guiGen_2k_s.uasset
+[2017.12.06-19.14.06:051][435]LogSavePackage: Save=94.76ms
+[2017.12.06-19.14.06:051][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_guiGen_2k_n6E330BD142E19AFE7CE89AAB8A5F700C.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_guiGen/brick_guiGen_2k_n.uasset'
+[2017.12.06-19.14.06:058][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_guiGen/brick_guiGen_2k_n.uasset
+[2017.12.06-19.14.06:098][435]LogSavePackage: Save=25.00ms
+[2017.12.06-19.14.06:098][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_guiGen_2k_h6B28A3AC4B7BC7920FC5CF975A1AC921.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_guiGen/brick_guiGen_2k_h.uasset'
+[2017.12.06-19.14.06:106][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_guiGen/brick_guiGen_2k_h.uasset
+[2017.12.06-19.14.06:164][435]LogSavePackage: Save=43.74ms
+[2017.12.06-19.14.06:164][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_guiGen_2k_gA3A17C384F756CF2C548998B71C3FF14.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_guiGen/brick_guiGen_2k_g.uasset'
+[2017.12.06-19.14.06:173][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_guiGen/brick_guiGen_2k_g.uasset
+[2017.12.06-19.14.06:296][435]LogSavePackage: Save=108.57ms
+[2017.12.06-19.14.06:296][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_guiGen_2k_dF3D9FDE8465243DE4233D981C3CB21E9.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_guiGen/brick_guiGen_2k_d.uasset'
+[2017.12.06-19.14.06:304][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_guiGen/brick_guiGen_2k_d.uasset
+[2017.12.06-19.14.06:424][435]LogSavePackage: Save=105.85ms
+[2017.12.06-19.14.06:424][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/brick_guiGen_2k_alb55E93E96449E193EF598DCA3C3DC9414.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_guiGen/brick_guiGen_2k_alb.uasset'
+[2017.12.06-19.14.06:432][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/brick_guiGen/brick_guiGen_2k_alb.uasset
+[2017.12.06-19.14.06:911][435]LogSavePackage: Save=91.08ms
+[2017.12.06-19.14.06:911][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_FlatSurface_2k_sD1C7E6664F7B00A823B45C9E0645EA4A.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_FlatSurface/Concrete_FlatSurface_2k_s.uasset'
+[2017.12.06-19.14.06:918][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_FlatSurface/Concrete_FlatSurface_2k_s.uasset
+[2017.12.06-19.14.07:064][435]LogSavePackage: Save=131.51ms
+[2017.12.06-19.14.07:064][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_FlatSurface_2k_n66A090C245D4CDD4501BA2BE3B626E83.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_FlatSurface/Concrete_FlatSurface_2k_n.uasset'
+[2017.12.06-19.14.07:073][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_FlatSurface/Concrete_FlatSurface_2k_n.uasset
+[2017.12.06-19.14.07:128][435]LogSavePackage: Save=39.76ms
+[2017.12.06-19.14.07:128][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_FlatSurface_2k_gF4B384904654B841655E288B0BF182F6.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_FlatSurface/Concrete_FlatSurface_2k_g.uasset'
+[2017.12.06-19.14.07:136][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_FlatSurface/Concrete_FlatSurface_2k_g.uasset
+[2017.12.06-19.14.07:252][435]LogSavePackage: Save=101.59ms
+[2017.12.06-19.14.07:252][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_FlatSurface_2k_albE72B26CA4AC6B83ECA83D1B996A91B81.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_FlatSurface/Concrete_FlatSurface_2k_alb.uasset'
+[2017.12.06-19.14.07:260][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_FlatSurface/Concrete_FlatSurface_2k_alb.uasset
+[2017.12.06-19.14.07:633][435]LogSavePackage: Save=39.53ms
+[2017.12.06-19.14.07:633][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_Square_2k_s66798FC0480F026A2603918BFCF01E8F.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_Square/Concrete_Square_2k_s.uasset'
+[2017.12.06-19.14.07:642][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_Square/Concrete_Square_2k_s.uasset
+[2017.12.06-19.14.07:724][435]LogSavePackage: Save=67.71ms
+[2017.12.06-19.14.07:724][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_Square_2k_nB1B5CE57460B87F68BA42E9491A43E81.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_Square/Concrete_Square_2k_n.uasset'
+[2017.12.06-19.14.07:732][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_Square/Concrete_Square_2k_n.uasset
+[2017.12.06-19.14.07:766][435]LogSavePackage: Save=16.16ms
+[2017.12.06-19.14.07:766][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_Square_2k_h6042A1764ABFA920273F7C97B581D816.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_Square/Concrete_Square_2k_h.uasset'
+[2017.12.06-19.14.07:774][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_Square/Concrete_Square_2k_h.uasset
+[2017.12.06-19.14.07:826][435]LogSavePackage: Save=38.64ms
+[2017.12.06-19.14.07:827][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_Square_2k_g07134F514ACD1879750CB09861A66876.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_Square/Concrete_Square_2k_g.uasset'
+[2017.12.06-19.14.07:834][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_Square/Concrete_Square_2k_g.uasset
+[2017.12.06-19.14.07:932][435]LogSavePackage: Save=82.05ms
+[2017.12.06-19.14.07:932][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_Square_2k_d540DACD8474F79AD8921ACB693D967D1.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_Square/Concrete_Square_2k_d.uasset'
+[2017.12.06-19.14.07:940][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_Square/Concrete_Square_2k_d.uasset
+[2017.12.06-19.14.07:980][435]LogSavePackage: Save=25.80ms
+[2017.12.06-19.14.07:980][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_Square_2k_aoEA27F4EE49CF0318CD1B3E94B51D0809.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_Square/Concrete_Square_2k_ao.uasset'
+[2017.12.06-19.14.07:988][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_Square/Concrete_Square_2k_ao.uasset
+[2017.12.06-19.14.08:089][435]LogSavePackage: Save=87.03ms
+[2017.12.06-19.14.08:089][435]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Concrete_Square_2k_alb5814D5A640A9885A7B3C4598B141CA1C.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_Square/Concrete_Square_2k_alb.uasset'
+[2017.12.06-19.14.08:096][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/Textures/Concrete_Square/Concrete_Square_2k_alb.uasset
+[2017.12.06-19.19.01:542][128]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.06-19.19.10:717][155]LogSavePackage: Save=131.57ms
+[2017.12.06-19.19.10:717][155]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_Auto1F6967E6C499A26ABE3659C9BAF5BC817.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Maps/Toaster_Interior_Auto1.umap'
+[2017.12.06-19.19.10:722][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Maps/Toaster_Interior_Auto1.umap
+[2017.12.06-19.19.10:726][155]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Toaster_Interior' took 0.171
+[2017.12.06-19.19.10:726][155]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.171
+[2017.12.06-19.19.10:731][155]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Toaster_Interior_BuiltData] ([1] browsable assets)...
+[2017.12.06-19.19.10:731][155]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Toaster_Interior_BuiltData]
+[2017.12.06-19.19.10:768][155]LogSavePackage: Save=20.65ms
+[2017.12.06-19.19.10:768][155]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltData_Auto12C943A5D46E6426B0E4A0992A7D1F1E3.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Maps/Toaster_Interior_BuiltData_Auto1.uasset'
+[2017.12.06-19.19.10:774][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Maps/Toaster_Interior_BuiltData_Auto1.uasset
+[2017.12.06-19.19.10:774][155]LogFileHelpers: Auto-saving content packages took 0.046
+[2017.12.06-19.21.19:945][485]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.12.06-19.21.20:859][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.06-19.21.20:891][571]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.12.06-19.21.22:648][721]LogMaterial: Missing cached shader map for material brick_ancientDiagonal, compiling. 
+[2017.12.06-19.21.22:648][721]LogMaterial:Warning: Failed to compile Material /Engine/Transient.brick_ancientDiagonal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.06-19.21.22:648][721]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.06-19.21.22:718][721]LogMaterial: Missing cached shader map for material brick_ancientDiagonal, compiling. 
+[2017.12.06-19.21.22:719][721]LogMaterial:Warning: Failed to compile Material /Engine/Transient.brick_ancientDiagonal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.06-19.21.22:719][721]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.06-19.21.22:724][721]LogMaterial: Missing cached shader map for material brick_ancientDiagonal, compiling. 
+[2017.12.06-19.21.22:724][721]LogMaterial:Warning: Failed to compile Material /Engine/Transient.brick_ancientDiagonal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.06-19.21.22:724][721]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.06-19.21.22:750][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_12, compiling. 
+[2017.12.06-19.21.22:752][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.12.06-19.21.22:753][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_5, compiling. 
+[2017.12.06-19.21.22:755][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.06-19.21.22:757][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_6, compiling. 
+[2017.12.06-19.21.22:759][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_25, compiling. 
+[2017.12.06-19.21.22:761][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_15, compiling. 
+[2017.12.06-19.21.22:762][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2017.12.06-19.21.22:763][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_16, compiling. 
+[2017.12.06-19.21.22:765][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_23, compiling. 
+[2017.12.06-19.21.22:767][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2017.12.06-19.21.22:768][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_17, compiling. 
+[2017.12.06-19.21.22:770][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_9, compiling. 
+[2017.12.06-19.21.22:772][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBumpOffset_4, compiling. 
+[2017.12.06-19.21.22:774][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_6, compiling. 
+[2017.12.06-19.21.22:776][721]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2017.12.06-21.06.45:176][ 63]LogSavePackage: Save=125.45ms
+[2017.12.06-21.06.45:176][ 63]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_Auto28B2EAA5A4480B0E31B23B1BD5182CF7A.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Maps/Toaster_Interior_Auto2.umap'
+[2017.12.06-21.06.45:181][ 63]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Maps/Toaster_Interior_Auto2.umap
+[2017.12.06-21.06.45:184][ 63]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Toaster_Interior' took 0.164
+[2017.12.06-21.06.45:184][ 63]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.164
+[2017.12.06-21.06.45:189][ 63]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sequences/Shots/Shot01] ([1] browsable assets)...
+[2017.12.06-21.06.45:189][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sequences/Shots/Shot01]
+[2017.12.06-21.06.45:196][ 63]LogSavePackage: Save=3.75ms
+[2017.12.06-21.06.45:196][ 63]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot01_Auto23DA88EE4452BF3AB5A56CC89FC512053.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Sequences/Shots/Shot01_Auto2.uasset'
+[2017.12.06-21.06.45:200][ 63]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Sequences/Shots/Shot01_Auto2.uasset
+[2017.12.06-21.06.45:200][ 63]LogFileHelpers: Auto-saving content packages took 0.014
+[2017.12.06-21.20.10:244][660]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-21.20.22:995][ 34]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-21.20.23:503][ 85]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-21.21.49:913][832]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-21.22.03:820][  6]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-21.22.38:515][ 31]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-21.22.53:833][209]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-21.23.05:903][221]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (ToastChamberFloor)
+[2017.12.06-21.23.07:312][329]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-21.23.24:099][785]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-21.23.24:133][786]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (SkeletalMeshComponent0)
+[2017.12.06-21.23.47:510][642]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (SkeletalMeshComponent0)
+[2017.12.06-21.23.48:084][700]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (SkeletalMeshComponent0)
+[2017.12.06-21.23.48:449][736]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (SkeletalMeshComponent0)
+[2017.12.06-21.23.48:851][776]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (SkeletalMeshComponent0)
+[2017.12.06-21.24.25:006][395]LogEditorViewport: Clicking on Actor (LMB): FbxScene_Model_C (FbxScene_Model)
+[2017.12.06-21.24.25:019][395]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (default)
+[2017.12.06-21.24.26:593][538]LogEditorViewport: Clicking on Actor (LMB): Brush (ToastChamberLeft2)
+[2017.12.06-21.24.27:245][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HeatingCoilLeftObject12)
+[2017.12.06-21.24.27:776][639]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-21.24.33:643][194]LogEditorViewport: Clicking on Actor (LMB): FbxScene_Model_C (FbxScene_Model)
+[2017.12.06-21.24.33:778][202]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (default)
+[2017.12.06-21.24.35:241][333]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-21.24.42:923][809]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-21.25.45:923][608]LogSlate: Took 0.001179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.12.06-21.25.52:084][331]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-21.26.07:015][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.12.06-21.26.07:127][814]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.12.06-21.26.14:544][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.12.06-21.27.56:576][273]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Console)
+[2017.12.06-21.28.15:453][982]Cmd: TRANSACTION UNDO
+[2017.12.06-21.28.15:453][982]LogEditorTransaction: Undo Delete Sections
+[2017.12.06-21.28.41:400][377]Cmd: TRANSACTION UNDO
+[2017.12.06-21.28.41:400][377]LogEditorTransaction: Undo Animatable Property Changed
+[2017.12.06-21.30.25:471][506]LogSavePackage: Save=124.33ms
+[2017.12.06-21.30.25:471][506]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_Auto3F7F5E2F34E982C82EF6AD190AA737379.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Maps/Toaster_Interior_Auto3.umap'
+[2017.12.06-21.30.25:475][506]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Maps/Toaster_Interior_Auto3.umap
+[2017.12.06-21.30.25:480][506]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Toaster_Interior' took 0.185
+[2017.12.06-21.30.25:480][506]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.185
+[2017.12.06-21.30.25:484][506]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sequences/Shots/Shot01] ([1] browsable assets)...
+[2017.12.06-21.30.25:484][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sequences/Shots/Shot01]
+[2017.12.06-21.30.25:502][506]LogSavePackage: Save=15.24ms
+[2017.12.06-21.30.25:502][506]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot01_Auto368F2FBCB4ED7D2FA7C1C49BE6E42EAAA.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Sequences/Shots/Shot01_Auto3.uasset'
+[2017.12.06-21.30.25:507][506]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Sequences/Shots/Shot01_Auto3.uasset
+[2017.12.06-21.30.25:507][506]LogFileHelpers: Auto-saving content packages took 0.026
+[2017.12.06-21.41.48:918][254]LogSavePackage: Save=115.59ms
+[2017.12.06-21.41.48:918][254]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior9C1466D349266A4D02402D8EF4B04550.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.06-21.41.48:926][254]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.06-21.41.49:070][254]LogSavePackage: Save=95.01ms
+[2017.12.06-21.41.49:070][254]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltData815168A84F227AE9200BAF8CF299D9A4.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.06-21.41.49:078][254]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.06-21.42.13:919][145]LogSavePackage: Save=12.49ms
+[2017.12.06-21.42.13:919][145]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot02-alternateF61F1F2E4A007946DC985E908074C477.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Sequences/Shots/Shot02-alternate.uasset'
+[2017.12.06-21.42.13:927][145]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Sequences/Shots/Shot02-alternate.uasset
+[2017.12.06-21.42.13:935][145]LogSavePackage: Save=2.59ms
+[2017.12.06-21.42.13:935][145]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot01B353A06E4FB4696050BC8C80C8056C56.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Sequences/Shots/Shot01.uasset'
+[2017.12.06-21.42.13:943][145]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Sequences/Shots/Shot01.uasset
+[2017.12.06-21.42.16:365][419]LogSavePackage: Save=12.10ms
+[2017.12.06-21.42.16:365][419]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot02-alternate473230A44C8624F6D45A6BA4ECA44361.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Sequences/Shots/Shot-02/Shot02-alternate.uasset'
+[2017.12.06-21.42.16:373][419]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Sequences/Shots/Shot-02/Shot02-alternate.uasset
+[2017.12.06-21.42.16:508][419]LogSavePackage: Save=3.05ms
+[2017.12.06-21.42.16:508][419]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot0112F9B5DF40F29D952BA001AF61C3F946.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Sequences/Shots/Shot01.uasset'
+[2017.12.06-21.42.16:511][419]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Sequences/Shots/Shot01.uasset
+[2017.12.06-21.47.03:537][837]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2017.12.06-21.47.03:539][837]LogLinker: Can't find file '/Engine/Transient'
+[2017.12.06-21.47.51:398][501]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-21.48.06:410][833]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.12.06-21.48.17:510][753]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-21.48.43:945][909]Cmd: SELECT NONE
+[2017.12.06-21.52.08:766][648]LogSavePackage: Save=131.31ms
+[2017.12.06-21.52.08:766][648]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_Auto43061CDED482561BD58EE27B7ACBD5FD8.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Maps/Toaster_Interior_Auto4.umap'
+[2017.12.06-21.52.08:770][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Maps/Toaster_Interior_Auto4.umap
+[2017.12.06-21.52.08:774][648]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Toaster_Interior' took 0.169
+[2017.12.06-21.52.08:774][648]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.169
+[2017.12.06-21.52.08:778][648]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sequences/Shots/Shot-02/Shot02] ([1] browsable assets)...
+[2017.12.06-21.52.08:778][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sequences/Shots/Shot-02/Shot02]
+[2017.12.06-21.52.08:794][648]LogSavePackage: Save=12.36ms
+[2017.12.06-21.52.08:794][648]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot02_Auto464B7852647A1C7BABC47D59ECAD5EBBD.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Sequences/Shots/Shot-02/Shot02_Auto4.uasset'
+[2017.12.06-21.52.08:799][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Sequences/Shots/Shot-02/Shot02_Auto4.uasset
+[2017.12.06-21.52.08:799][648]LogFileHelpers: Auto-saving content packages took 0.024
+[2017.12.06-21.54.57:479][952]LogSavePackage: Save=117.03ms
+[2017.12.06-21.54.57:479][952]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_InteriorF11A23F74E6AC0D06C568484D5B6AF53.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.06-21.54.57:496][952]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.06-21.54.57:639][952]LogSavePackage: Save=89.15ms
+[2017.12.06-21.54.57:639][952]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltData12F9ADB24D8D9AAC0F2B79BAA7213ECE.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.06-21.54.57:643][952]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.06-21.55.27:864][397]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.12.06-22.10.09:481][814]LogSavePackage: Save=120.58ms
+[2017.12.06-22.10.09:481][814]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_Auto533709E8C4B46F617042EEF8C66F22EEF.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Maps/Toaster_Interior_Auto5.umap'
+[2017.12.06-22.10.09:486][814]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Maps/Toaster_Interior_Auto5.umap
+[2017.12.06-22.10.09:491][814]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Toaster_Interior' took 0.155
+[2017.12.06-22.10.09:491][814]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.155
+[2017.12.06-22.10.09:495][814]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sequences/Shots/Shot-02/Shot02] ([1] browsable assets)...
+[2017.12.06-22.10.09:495][814]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sequences/Shots/Shot-02/Shot02]
+[2017.12.06-22.10.09:510][814]LogSavePackage: Save=12.16ms
+[2017.12.06-22.10.09:511][814]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot02_Auto5CD9641EA438B1E9C3FBFEAA7354934E3.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Sequences/Shots/Shot-02/Shot02_Auto5.uasset'
+[2017.12.06-22.10.09:515][814]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Sequences/Shots/Shot-02/Shot02_Auto5.uasset
+[2017.12.06-22.10.09:517][814]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sequences/Shots/Shot-05/Shot05] ([1] browsable assets)...
+[2017.12.06-22.10.09:517][814]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sequences/Shots/Shot-05/Shot05]
+[2017.12.06-22.10.09:531][814]LogSavePackage: Save=10.53ms
+[2017.12.06-22.10.09:531][814]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot05_Auto57D81ACA044724293C99004945044EFEF.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Sequences/Shots/Shot-05/Shot05_Auto5.uasset'
+[2017.12.06-22.10.09:535][814]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Sequences/Shots/Shot-05/Shot05_Auto5.uasset
+[2017.12.06-22.10.09:535][814]LogFileHelpers: Auto-saving content packages took 0.043
+[2017.12.06-22.10.42:000][ 74]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-22.10.43:454][220]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-22.10.59:228][766]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (robot-Tpose)
+[2017.12.06-22.11.00:112][849]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
