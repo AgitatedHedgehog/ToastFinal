@@ -1424,3 +1424,162 @@ LogInit: Object subsystem initialized
 [2017.12.08-05.49.21:256][245]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
 [2017.12.08-05.49.21:256][245]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
 [2017.12.08-05.49.21:388][245]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 132.888ms to complete.
+[2017.12.08-05.56.35:713][290]LogSavePackage: Save=136.25ms
+[2017.12.08-05.56.35:713][290]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_InteriorCF9CFCC24BDC9A38828CAD90AE41F575.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-05.56.35:721][290]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-05.56.35:892][290]LogSavePackage: Save=109.19ms
+[2017.12.08-05.56.35:892][290]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltData4DF176404932FE73A52EBC98654436D7.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-05.56.35:899][290]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-06.06.35:987][229]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Toaster_Interior' took 0.011
+[2017.12.08-06.06.35:994][229]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cinematics/Sequences/Shots/MiscellanousShots/Bagel-Descending/Shot-BagelDescending2] ([1] browsable assets)...
+[2017.12.08-06.06.35:995][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cinematics/Sequences/Shots/MiscellanousShots/Bagel-Descending/Shot-BagelDescending2]
+[2017.12.08-06.06.36:019][229]LogSavePackage: Save=19.40ms
+[2017.12.08-06.06.36:019][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot-BagelDescending2_Auto31A4D49904F66889220A6E7A03E7D02FC.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Cinematics/Sequences/Shots/MiscellanousShots/Bagel-Descending/Shot-BagelDescending2_Auto3.uasset'
+[2017.12.08-06.06.36:023][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Cinematics/Sequences/Shots/MiscellanousShots/Bagel-Descending/Shot-BagelDescending2_Auto3.uasset
+[2017.12.08-06.06.36:027][229]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cinematics/Sequences/Shots/Shot-02/Shot02-alternate] ([1] browsable assets)...
+[2017.12.08-06.06.36:027][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cinematics/Sequences/Shots/Shot-02/Shot02-alternate]
+[2017.12.08-06.06.36:063][229]LogSavePackage: Save=11.80ms
+[2017.12.08-06.06.36:063][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot02-alternate_Auto31865469543ACFE323AF7798A4C59AD32.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Cinematics/Sequences/Shots/Shot-02/Shot02-alternate_Auto3.uasset'
+[2017.12.08-06.06.36:067][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Cinematics/Sequences/Shots/Shot-02/Shot02-alternate_Auto3.uasset
+[2017.12.08-06.06.36:070][229]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cinematics/Sequences/Shots/Shot-05/Shot05-AlternateAngle] ([1] browsable assets)...
+[2017.12.08-06.06.36:070][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cinematics/Sequences/Shots/Shot-05/Shot05-AlternateAngle]
+[2017.12.08-06.06.36:088][229]LogSavePackage: Save=14.25ms
+[2017.12.08-06.06.36:088][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot05-AlternateAngle_Auto35940A43A496000334F6B3DBFACBF10E6.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Cinematics/Sequences/Shots/Shot-05/Shot05-AlternateAngle_Auto3.uasset'
+[2017.12.08-06.06.36:092][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Cinematics/Sequences/Shots/Shot-05/Shot05-AlternateAngle_Auto3.uasset
+[2017.12.08-06.06.36:095][229]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cinematics/Sequences/Shots/Shot-05/Shot05-AlternateAngle1] ([1] browsable assets)...
+[2017.12.08-06.06.36:095][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cinematics/Sequences/Shots/Shot-05/Shot05-AlternateAngle1]
+[2017.12.08-06.06.36:112][229]LogSavePackage: Save=14.45ms
+[2017.12.08-06.06.36:112][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot05-AlternateAngle1_Auto31E9B0B304170905FB5658C87517A942E.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Cinematics/Sequences/Shots/Shot-05/Shot05-AlternateAngle1_Auto3.uasset'
+[2017.12.08-06.06.36:116][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Cinematics/Sequences/Shots/Shot-05/Shot05-AlternateAngle1_Auto3.uasset
+[2017.12.08-06.06.36:120][229]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cinematics/Sequences/Shots/Shot-21/Shot21] ([1] browsable assets)...
+[2017.12.08-06.06.36:120][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cinematics/Sequences/Shots/Shot-21/Shot21]
+[2017.12.08-06.06.36:156][229]LogSavePackage: Save=14.03ms
+[2017.12.08-06.06.36:156][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot21_Auto37B950D624B0DF00A7896E783A032218F.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Cinematics/Sequences/Shots/Shot-21/Shot21_Auto3.uasset'
+[2017.12.08-06.06.36:160][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Cinematics/Sequences/Shots/Shot-21/Shot21_Auto3.uasset
+[2017.12.08-06.06.36:163][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/Mini_speakers_Mini_speaker1] ([1] browsable assets)...
+[2017.12.08-06.06.36:190][229]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Speaker/Mini_speakers_Mini_speaker1.Mini_speakers_Mini_speaker1]
+[2017.12.08-06.06.36:190][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/Mini_speakers_Mini_speaker1]
+[2017.12.08-06.06.36:208][229]LogSavePackage: Save=13.94ms
+[2017.12.08-06.06.36:208][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Mini_speakers_Mini_speaker1_Auto30AB2A51542CF5CE0615EDA893F044FB4.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_Mini_speaker1_Auto3.uasset'
+[2017.12.08-06.06.36:212][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_Mini_speaker1_Auto3.uasset
+[2017.12.08-06.06.36:216][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Button/Button_pCylinder1] ([1] browsable assets)...
+[2017.12.08-06.06.36:242][229]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Button/Button_pCylinder1.Button_pCylinder1]
+[2017.12.08-06.06.36:242][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Button/Button_pCylinder1]
+[2017.12.08-06.06.36:257][229]LogSavePackage: Save=12.06ms
+[2017.12.08-06.06.36:257][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Button_pCylinder1_Auto3292EF94F4105EE916B1656892082AF5E.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Button/Button_pCylinder1_Auto3.uasset'
+[2017.12.08-06.06.36:261][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Button/Button_pCylinder1_Auto3.uasset
+[2017.12.08-06.06.36:264][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Button/lambert1] ([1] browsable assets)...
+[2017.12.08-06.06.36:290][229]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Button/lambert1.lambert1]
+[2017.12.08-06.06.36:290][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Button/lambert1]
+[2017.12.08-06.06.36:307][229]LogSavePackage: Save=13.37ms
+[2017.12.08-06.06.36:307][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/lambert1_Auto35DE1CFCB48C81A8DB186A3949DBA63F6.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Button/lambert1_Auto3.uasset'
+[2017.12.08-06.06.36:311][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Button/lambert1_Auto3.uasset
+[2017.12.08-06.06.36:313][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Button/Button_pPipe1] ([1] browsable assets)...
+[2017.12.08-06.06.36:340][229]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Button/Button_pPipe1.Button_pPipe1]
+[2017.12.08-06.06.36:340][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Button/Button_pPipe1]
+[2017.12.08-06.06.36:355][229]LogSavePackage: Save=12.26ms
+[2017.12.08-06.06.36:355][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Button_pPipe1_Auto37B2BC1934775F93980062EBCE96AC313.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Button/Button_pPipe1_Auto3.uasset'
+[2017.12.08-06.06.36:359][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Button/Button_pPipe1_Auto3.uasset
+[2017.12.08-06.06.36:362][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/Mini_speakers_pPipe1] ([1] browsable assets)...
+[2017.12.08-06.06.36:389][229]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Speaker/Mini_speakers_pPipe1.Mini_speakers_pPipe1]
+[2017.12.08-06.06.36:389][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/Mini_speakers_pPipe1]
+[2017.12.08-06.06.36:415][229]LogSavePackage: Save=21.59ms
+[2017.12.08-06.06.36:415][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Mini_speakers_pPipe1_Auto371EF88154C53AECF16805BABCE99CBB5.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_pPipe1_Auto3.uasset'
+[2017.12.08-06.06.36:420][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_pPipe1_Auto3.uasset
+[2017.12.08-06.06.36:423][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/Mini_speakers_Mini_speaker] ([1] browsable assets)...
+[2017.12.08-06.06.36:448][229]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Speaker/Mini_speakers_Mini_speaker.Mini_speakers_Mini_speaker]
+[2017.12.08-06.06.36:448][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/Mini_speakers_Mini_speaker]
+[2017.12.08-06.06.36:464][229]LogSavePackage: Save=13.37ms
+[2017.12.08-06.06.36:464][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Mini_speakers_Mini_speaker_Auto3506BD3854C2B11792EB94086A4E744B4.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_Mini_speaker_Auto3.uasset'
+[2017.12.08-06.06.36:469][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_Mini_speaker_Auto3.uasset
+[2017.12.08-06.06.36:471][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/speaker] ([1] browsable assets)...
+[2017.12.08-06.06.36:496][229]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Speaker/speaker.speaker]
+[2017.12.08-06.06.36:496][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/speaker]
+[2017.12.08-06.06.36:511][229]LogSavePackage: Save=12.67ms
+[2017.12.08-06.06.36:511][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/speaker_Auto3DBB9A92C46656691CF94FBB1E53109C2.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/speaker_Auto3.uasset'
+[2017.12.08-06.06.36:515][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/speaker_Auto3.uasset
+[2017.12.08-06.06.36:518][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/blue] ([1] browsable assets)...
+[2017.12.08-06.06.36:543][229]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Speaker/blue.blue]
+[2017.12.08-06.06.36:543][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/blue]
+[2017.12.08-06.06.36:559][229]LogSavePackage: Save=13.27ms
+[2017.12.08-06.06.36:559][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/blue_Auto35AE279F24155570A69379DBBBD149916.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/blue_Auto3.uasset'
+[2017.12.08-06.06.36:563][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/blue_Auto3.uasset
+[2017.12.08-06.06.36:565][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/inside_speker] ([1] browsable assets)...
+[2017.12.08-06.06.36:589][229]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Speaker/inside_speker.inside_speker]
+[2017.12.08-06.06.36:589][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/inside_speker]
+[2017.12.08-06.06.36:607][229]LogSavePackage: Save=13.59ms
+[2017.12.08-06.06.36:607][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/inside_speker_Auto328CBE07B4F77E81D9C1C6280D7431C1F.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/inside_speker_Auto3.uasset'
+[2017.12.08-06.06.36:610][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/inside_speker_Auto3.uasset
+[2017.12.08-06.06.36:613][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/red] ([1] browsable assets)...
+[2017.12.08-06.06.36:638][229]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Speaker/red.red]
+[2017.12.08-06.06.36:638][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/red]
+[2017.12.08-06.06.36:655][229]LogSavePackage: Save=14.09ms
+[2017.12.08-06.06.36:655][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/red_Auto3ECF709294800D64D5970C0B2A6034534.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/red_Auto3.uasset'
+[2017.12.08-06.06.36:659][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/red_Auto3.uasset
+[2017.12.08-06.06.36:661][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/Black] ([1] browsable assets)...
+[2017.12.08-06.06.36:686][229]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Speaker/Black.Black]
+[2017.12.08-06.06.36:686][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/Black]
+[2017.12.08-06.06.36:701][229]LogSavePackage: Save=12.56ms
+[2017.12.08-06.06.36:701][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Black_Auto3292466E448DBCAEBE1F0D694883029B7.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Black_Auto3.uasset'
+[2017.12.08-06.06.36:706][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Black_Auto3.uasset
+[2017.12.08-06.06.36:708][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/Mini_speakers_pCylinder11] ([1] browsable assets)...
+[2017.12.08-06.06.36:733][229]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Speaker/Mini_speakers_pCylinder11.Mini_speakers_pCylinder11]
+[2017.12.08-06.06.36:733][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/Mini_speakers_pCylinder11]
+[2017.12.08-06.06.36:748][229]LogSavePackage: Save=11.67ms
+[2017.12.08-06.06.36:748][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Mini_speakers_pCylinder11_Auto3ED281EA44664F68B25EFCCB838620EFB.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_pCylinder11_Auto3.uasset'
+[2017.12.08-06.06.36:752][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_pCylinder11_Auto3.uasset
+[2017.12.08-06.06.36:754][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/pokretla] ([1] browsable assets)...
+[2017.12.08-06.06.36:779][229]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Speaker/pokretla.pokretla]
+[2017.12.08-06.06.36:779][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/pokretla]
+[2017.12.08-06.06.36:796][229]LogSavePackage: Save=13.73ms
+[2017.12.08-06.06.36:796][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/pokretla_Auto38678845C4C7A5C2938BD9EBEC83EB84B.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/pokretla_Auto3.uasset'
+[2017.12.08-06.06.36:801][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/pokretla_Auto3.uasset
+[2017.12.08-06.06.36:804][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/Mini_speakers_pCylinder12] ([1] browsable assets)...
+[2017.12.08-06.06.36:829][229]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Speaker/Mini_speakers_pCylinder12.Mini_speakers_pCylinder12]
+[2017.12.08-06.06.36:829][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/Mini_speakers_pCylinder12]
+[2017.12.08-06.06.36:845][229]LogSavePackage: Save=11.82ms
+[2017.12.08-06.06.36:845][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Mini_speakers_pCylinder12_Auto37192BB534562C233047BDFAD7B8C1437.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_pCylinder12_Auto3.uasset'
+[2017.12.08-06.06.36:850][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_pCylinder12_Auto3.uasset
+[2017.12.08-06.06.36:853][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/Mini_speakers_pCylinder13] ([1] browsable assets)...
+[2017.12.08-06.06.36:878][229]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Speaker/Mini_speakers_pCylinder13.Mini_speakers_pCylinder13]
+[2017.12.08-06.06.36:878][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/Mini_speakers_pCylinder13]
+[2017.12.08-06.06.36:893][229]LogSavePackage: Save=11.49ms
+[2017.12.08-06.06.36:893][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Mini_speakers_pCylinder13_Auto3CE6D7520450BF84492A5C3B9EAD5AAFE.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_pCylinder13_Auto3.uasset'
+[2017.12.08-06.06.36:897][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_pCylinder13_Auto3.uasset
+[2017.12.08-06.06.36:900][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/Mini_speakers_pCylinder14] ([1] browsable assets)...
+[2017.12.08-06.06.36:924][229]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Speaker/Mini_speakers_pCylinder14.Mini_speakers_pCylinder14]
+[2017.12.08-06.06.36:924][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/Mini_speakers_pCylinder14]
+[2017.12.08-06.06.36:939][229]LogSavePackage: Save=11.20ms
+[2017.12.08-06.06.36:939][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Mini_speakers_pCylinder14_Auto3EFA6A5334E04FE5DB586F0AF6C4F1464.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_pCylinder14_Auto3.uasset'
+[2017.12.08-06.06.36:943][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_pCylinder14_Auto3.uasset
+[2017.12.08-06.06.36:946][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/Mini_speakers_pCube8] ([1] browsable assets)...
+[2017.12.08-06.06.36:971][229]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Speaker/Mini_speakers_pCube8.Mini_speakers_pCube8]
+[2017.12.08-06.06.36:971][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/Mini_speakers_pCube8]
+[2017.12.08-06.06.36:986][229]LogSavePackage: Save=11.99ms
+[2017.12.08-06.06.36:986][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Mini_speakers_pCube8_Auto3EE0EB7C645CCF64B0228459DE5885A1A.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_pCube8_Auto3.uasset'
+[2017.12.08-06.06.36:990][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_pCube8_Auto3.uasset
+[2017.12.08-06.06.36:992][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/lambert1] ([1] browsable assets)...
+[2017.12.08-06.06.37:018][229]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Speaker/lambert1.lambert1]
+[2017.12.08-06.06.37:018][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/lambert1]
+[2017.12.08-06.06.37:044][229]LogSavePackage: Save=14.80ms
+[2017.12.08-06.06.37:044][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/lambert1_Auto34F065D9D4A3D788B41DE82B27396149B.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/lambert1_Auto3.uasset'
+[2017.12.08-06.06.37:047][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/lambert1_Auto3.uasset
+[2017.12.08-06.06.37:050][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/wood_2] ([1] browsable assets)...
+[2017.12.08-06.06.37:055][229]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Speaker/wood_2.wood_2]
+[2017.12.08-06.06.37:055][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/wood_2]
+[2017.12.08-06.06.37:069][229]LogSavePackage: Save=10.75ms
+[2017.12.08-06.06.37:069][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/wood_2_Auto3515757EB4632DC1B17218B82A9416912.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/wood_2_Auto3.uasset'
+[2017.12.08-06.06.37:073][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/wood_2_Auto3.uasset
+[2017.12.08-06.06.37:075][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/Mini_speakers_pCylinder10] ([1] browsable assets)...
+[2017.12.08-06.06.37:102][229]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Speaker/Mini_speakers_pCylinder10.Mini_speakers_pCylinder10]
+[2017.12.08-06.06.37:102][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/Mini_speakers_pCylinder10]
+[2017.12.08-06.06.37:117][229]LogSavePackage: Save=11.97ms
+[2017.12.08-06.06.37:117][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Mini_speakers_pCylinder10_Auto39CBB27444EBADE8F53AA3AAB85BFC4E4.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_pCylinder10_Auto3.uasset'
+[2017.12.08-06.06.37:122][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_pCylinder10_Auto3.uasset
+[2017.12.08-06.06.37:124][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Speaker/Mini_speakers_pCylinder9] ([1] browsable assets)...
+[2017.12.08-06.06.37:151][229]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Speaker/Mini_speakers_pCylinder9.Mini_speakers_pCylinder9]
+[2017.12.08-06.06.37:151][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Speaker/Mini_speakers_pCylinder9]
+[2017.12.08-06.06.37:165][229]LogSavePackage: Save=11.09ms
+[2017.12.08-06.06.37:166][229]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Mini_speakers_pCylinder9_Auto3E3A3E1EA4F32CD39326227A8984171C0.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_pCylinder9_Auto3.uasset'
+[2017.12.08-06.06.37:169][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Models/Speaker/Mini_speakers_pCylinder9_Auto3.uasset
+[2017.12.08-06.06.37:169][229]LogFileHelpers: Auto-saving content packages took 1.179
