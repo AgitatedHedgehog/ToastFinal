@@ -1,9 +1,9 @@
-﻿Log file open, 12/07/17 16:04:32
+﻿Log file open, 12/07/17 21:20:56
 LogInit:Display: Running engine for game: Toast
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1519503587) SRandInit(1519503587).
+LogInit:Display: RandInit(-6949156) SRandInit(-6949156).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.618684
+LogStats: Stats thread started at 0.632701
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -20,3 +20,1407 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.08-04.20.57:174][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.08-04.20.57:174][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.08-04.20.57:188][  0]LogInit: Computer: ALF
+[2017.12.08-04.20.57:188][  0]LogInit: User: alrod000
+[2017.12.08-04.20.57:188][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.08-04.20.57:188][  0]LogInit: High frequency timer resolution =3.312789 MHz
+[2017.12.08-04.20.57:189][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.12.08-04.20.57:189][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.08-04.20.57:189][  0]LogMemory: Process Physical Memory: 271.96 MB used, 271.96 MB peak
+[2017.12.08-04.20.57:189][  0]LogMemory: Process Virtual Memory: 258.77 MB used, 258.77 MB peak
+[2017.12.08-04.20.57:189][  0]LogMemory: Physical Memory: 4343.26 MB used,  3818.15 MB free, 8161.41 MB total
+[2017.12.08-04.20.57:189][  0]LogMemory: Virtual Memory: 621.32 MB used,  3818.15 MB free, 134217728.00 MB total
+[2017.12.08-04.20.57:379][  0]LogInit: Using OS detected language (en-US).
+[2017.12.08-04.20.57:379][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.08-04.20.57:390][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.08-04.20.58:702][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.08-04.20.58:750][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2017.12.08-04.20.58:750][  0]LogD3D11RHI:       4060/0/4080 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.08-04.20.58:753][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.08-04.20.58:753][  0]LogD3D11RHI:       0/0/4080 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.08-04.20.58:753][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.08-04.20.58:760][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.08-04.20.58:760][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.08-04.20.58:760][  0]LogWindows: EnumDisplayDevices:
+[2017.12.08-04.20.58:761][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2017.12.08-04.20.58:761][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:1)
+[2017.12.08-04.20.58:761][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.12.08-04.20.58:761][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.12.08-04.20.58:761][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.12.08-04.20.58:761][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2017.12.08-04.20.58:761][  0]LogD3D11RHI:   Driver Version: 388.31 (internal:23.21.13.8831, unified:388.31)
+[2017.12.08-04.20.58:761][  0]LogD3D11RHI:      Driver Date: 11-14-2017
+[2017.12.08-04.20.58:761][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.08-04.20.58:803][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.08-04.20.58:825][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.08-04.20.58:929][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Intermediate/Shaders/WorkingDirectory/11660/).
+[2017.12.08-04.20.58:930][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/alrod_000/AppData/Local/Temp/UnrealShaderWorkingDir/5028B64A4D67D1DEFB773E90DE990EAA/'.
+[2017.12.08-04.20.58:930][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.12.08-04.21.00:470][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.08-04.21.00:553][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.12.08-04.21.00:638][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.08-04.21.00:726][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.12.08-04.21.00:834][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.12.08-04.21.00:918][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.08-04.21.01:001][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.08-04.21.01:083][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.08-04.21.01:181][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.12.08-04.21.01:301][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.12.08-04.21.01:379][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.08-04.21.01:454][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.08-04.21.01:532][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.08-04.21.01:615][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.08-04.21.01:692][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.08-04.21.01:848][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.08-04.21.01:848][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.08-04.21.01:916][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.12.08-04.21.02:057][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.12.08-04.21.02:099][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.12.08-04.21.02:177][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.08-04.21.02:258][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.08-04.21.02:341][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.08-04.21.02:420][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.12.08-04.21.02:420][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.12.08-04.21.03:320][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.12.08-04.21.03:695][  0]LogDerivedDataCache: Loaded boot cache 0.38s 90MB C:/Users/alrod_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.08-04.21.03:695][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/alrod_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.12.08-04.21.03:696][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.08-04.21.03:696][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.08-04.21.03:696][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.08-04.21.03:696][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.08-04.21.03:717][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.08-04.21.03:730][  0]LogDerivedDataCache: Using Local data cache path C:/Users/alrod_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.08-04.21.03:744][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.08-04.21.03:748][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.08-04.21.03:754][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.08-04.21.03:754][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.08-04.21.04:593][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.08-04.21.04:745][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.08-04.21.05:003][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.08-04.21.05:090][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.08-04.21.05:183][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.08-04.21.05:183][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.12.08-04.21.05:183][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.12.08-04.21.06:146][  0]LogNetVersion: Toast , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 164098987)
+[2017.12.08-04.21.06:244][  0]LogAssetRegistry: FAssetRegistry took 0.0286 seconds to start up
+[2017.12.08-04.21.06:352][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.070368 seconds
+[2017.12.08-04.21.06:359][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.12.08-04.21.06:359][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.12.08-04.21.06:359][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.08-04.21.06:473][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.08-04.21.10:890][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.08-04.21.10:955][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.08-04.21.11:882][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.08-04.21.12:600][  0]SourceControl: Info Source control is disabled
+[2017.12.08-04.21.12:682][  0]SourceControl: Info Source control is disabled
+[2017.12.08-04.21.12:798][  0]SourceControl: Info Source control is disabled
+[2017.12.08-04.21.12:897][  0]SourceControl: Info Source control is disabled
+[2017.12.08-04.21.14:163][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.08-04.21.15:255][  0]LogEngine: Initializing Engine...
+[2017.12.08-04.21.15:258][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.08-04.21.15:508][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.08-04.21.15:508][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.08-04.21.15:742][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.08-04.21.15:774][  0]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.08-04.21.15:798][  0]LogInit: FAudioDevice initialized.
+[2017.12.08-04.21.15:846][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/alrod_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.08-04.21.15:852][  0]LogInit: Texture streaming: Enabled
+[2017.12.08-04.21.16:018][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.08-04.21.16:883][  0]LogInit: Transaction tracking system initialized
+[2017.12.08-04.21.17:456][  0]BlueprintLog: New page: Editor Load
+[2017.12.08-04.21.19:332][  0]LocalizationService: Info Localization service is disabled
+[2017.12.08-04.21.20:556][  0]LogConsoleResponse:Display: 
+[2017.12.08-04.21.20:832][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.08-04.21.20:832][  0]LogCook:Display: Mobile HDR setting 1
+[2017.12.08-04.21.21:340][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/' took 0.02s
+[2017.12.08-04.21.22:781][  0]SourceControl: Info Source control is disabled
+[2017.12.08-04.21.22:782][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.08-04.21.22:784][  0]LightingResults: New page: Lighting Build
+[2017.12.08-04.21.22:870][  0]MapCheck: New page: Map Check
+[2017.12.08-04.21.22:870][  0]LightingResults: New page: Lighting Build
+[2017.12.08-04.21.23:165][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.12.08-04.21.23:166][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.08-04.21.23:179][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.08-04.21.23:196][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.08-04.21.23:295][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 98.849ms to complete.
+[2017.12.08-04.21.23:295][  0]LogFileHelpers: Loading map 'Template_Default' took 0.514
+[2017.12.08-04.21.23:532][  0]LogCollectionManager: Loaded 0 collections in 0.002564 seconds
+[2017.12.08-04.21.23:664][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Collections/' took 0.01s
+[2017.12.08-04.21.23:664][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Developers/alrod000/Collections/' took 0.01s
+[2017.12.08-04.21.23:664][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Collections/' took 0.01s
+[2017.12.08-04.21.23:664][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.12.08-04.21.23:675][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2329 classes and 491 folders.
+[2017.12.08-04.21.23:784][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.12.08-04.21.23:942][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.12.08-04.21.24:026][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.12.08-04.21.24:117][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.12.08-04.21.24:139][  0]LogSlate: Took 0.001193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.08-04.21.24:143][  0]LogSlate: Took 0.001435 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.08-04.21.24:241][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.12.08-04.21.24:347][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.12.08-04.21.24:347][  0]LogLoad: (Engine Initialization) Total time: 30.94 seconds
+[2017.12.08-04.21.24:347][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2017.12.08-04.21.24:347][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.08-04.21.24:687][  0]LogOcInput: OculusInput pre-init called
+[2017.12.08-04.21.24:687][  0]LogHMD: Starting GearVRController plugin
+[2017.12.08-04.21.24:713][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.08-04.21.25:032][  1]LogRenderer: Reallocating scene render targets to support 1124x476 NumSamples 1 (Frame:1).
+[2017.12.08-04.21.25:032][  1]LogAssetRegistry: Asset discovery search completed in 18.8103 seconds
+[2017.12.08-04.21.25:034][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.08-04.21.25:034][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2017.12.08-04.21.25:699][  3]LogSlate: Took 0.001817 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.08-04.22.03:355][116]LogSlate: Took 0.001390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.08-04.22.03:373][116]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.08-04.23.34:327][545]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.08-04.23.34:347][545]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/alrod_000/Downloads/bagel/bagel/bagel.fbx)
+[2017.12.08-04.23.34:369][545]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.12.08-04.23.34:369][545]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.12.08-04.23.34:370][545]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.12.08-04.23.34:370][545]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.12.08-04.23.34:370][545]LogFbx: ItemName: Material, ItemCount : 1
+[2017.12.08-04.23.34:370][545]LogFbx: ItemName: Model, ItemCount : 1
+[2017.12.08-04.23.34:378][545]LogFbx: Loading FBX Scene from ../../../../../../Users/alrod_000/Downloads/bagel/bagel/bagel.fbx
+[2017.12.08-04.23.34:387][545]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.08-04.23.36:904][545]LogFbx: Loading FBX Scene from ../../../../../../Users/alrod_000/Downloads/bagel/bagel/bagel.fbx
+[2017.12.08-04.23.36:910][545]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.08-04.23.36:922][545]LogFbx:Warning: Triangulating static mesh pTorus1
+[2017.12.08-04.23.37:016][545]LogStaticMesh: Building static mesh bagel...
+[2017.12.08-04.23.37:024][545]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Bagel/bagel.bagel
+[2017.12.08-04.23.37:040][545]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.12.08-04.23.41:418][962]LogRenderer: Reallocating scene render targets to support 1124x744 NumSamples 1 (Frame:1).
+[2017.12.08-04.24.12:496][ 39]LogAssetTools:Warning: Failed to import 'C:\Users\alrod_000\Downloads\bagel\bagel\material_bagel\bagel_half.uasset'. Unknown extension 'uasset'.
+[2017.12.08-04.24.12:518][ 39]LogAssetTools:Warning: Failed to import 'C:\Users\alrod_000\Downloads\bagel\bagel\material_bagel\bagel_material.uasset'. Unknown extension 'uasset'.
+[2017.12.08-04.24.12:546][ 39]LogAssetTools:Warning: Failed to import 'C:\Users\alrod_000\Downloads\bagel\bagel\material_bagel\bagel_0.uasset'. Unknown extension 'uasset'.
+[2017.12.08-04.25.09:863][320]AssetReimport: New page: Outstanding source content changes 2:25:09 PM
+[2017.12.08-04.25.09:867][320]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/GTFreeMaterials/Textures/bagel.png)
+[2017.12.08-04.25.14:569][321]LogSavePackage: Save=260.52ms
+[2017.12.08-04.25.14:569][321]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/bagel9754738E464C26DC798FF28D5CAE36F9.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/GTFreeMaterials/Textures/bagel.uasset'
+[2017.12.08-04.25.14:578][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/GTFreeMaterials/Textures/bagel.uasset
+[2017.12.08-04.25.17:592][655]AssetReimport: Info Importing new asset /Game/Materials/GTFreeMaterials/Textures/bagel.
+[2017.12.08-04.25.55:521][903]LogLinker:Warning: Can't find file '/Game/material_bagel/bagel_material'
+[2017.12.08-04.25.55:521][903]LogLinker:Warning: Can't find file for asset '/Game/material_bagel/bagel_material' while loading ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/GTFreeMaterials/Materials/bagel_half.uasset.
+[2017.12.08-04.25.55:521][903]LoadErrors:Error: Error /Game/Materials/GTFreeMaterials/Materials/bagel_half : Can't find file for asset. /Game/material_bagel/bagel_material
+[2017.12.08-04.25.55:521][903]LogLinker:Warning: Can't find file '/Game/material_bagel/bagel_material'
+[2017.12.08-04.25.55:521][903]LogLinker:Warning: Can't find file for asset '/Game/material_bagel/bagel_material' while loading ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/GTFreeMaterials/Materials/bagel_half.uasset.
+[2017.12.08-04.25.55:522][903]LogLinker:Warning: Can't find file '/Game/material_bagel/bagel_material'
+[2017.12.08-04.25.55:522][903]LoadErrors: Info Failed to load /Game/material_bagel/bagel_material.bagel_material Referenced by bagel_half
+[2017.12.08-04.25.55:522][903]LogLinker:Warning: Can't find file for asset '/Game/material_bagel/bagel_material' while loading NULL.
+[2017.12.08-04.25.55:523][903]LogStaticMesh: Building static mesh bagel_half...
+[2017.12.08-04.25.55:551][903]LogStaticMesh: Built static mesh [0.03s] /Game/Materials/GTFreeMaterials/Materials/bagel_half.bagel_half
+[2017.12.08-04.25.55:606][905]LogActorFactory: Actor Factory created bagel_half
+[2017.12.08-04.25.56:283][978]LogActorFactory: Actor Factory created bagel_half
+[2017.12.08-04.25.56:371][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.08-04.26.02:231][422]LogLinker:Warning: Can't find file '/Game/material_bagel/bagel_0'
+[2017.12.08-04.26.02:231][422]LogLinker:Warning: Can't find file for asset '/Game/material_bagel/bagel_0' while loading ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/GTFreeMaterials/Materials/bagel_material.uasset.
+[2017.12.08-04.26.02:231][422]LoadErrors:Error: Error /Game/Materials/GTFreeMaterials/Materials/bagel_material : Can't find file for asset. /Game/material_bagel/bagel_0
+[2017.12.08-04.26.02:231][422]LogLinker:Warning: Can't find file '/Game/material_bagel/bagel_0'
+[2017.12.08-04.26.02:231][422]LogLinker:Warning: Can't find file for asset '/Game/material_bagel/bagel_0' while loading ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/GTFreeMaterials/Materials/bagel_material.uasset.
+[2017.12.08-04.26.02:232][422]LogLinker:Warning: Can't find file '/Game/material_bagel/bagel_0'
+[2017.12.08-04.26.02:232][422]LoadErrors: Info Failed to load /Game/material_bagel/bagel_0.bagel_0 Referenced by MaterialExpressionTextureSample_2
+[2017.12.08-04.26.02:232][422]LogLinker:Warning: Can't find file for asset '/Game/material_bagel/bagel_0' while loading NULL.
+[2017.12.08-04.26.02:234][422]LogMaterial: Missing cached shader map for material bagel_material, compiling. 
+[2017.12.08-04.26.02:235][422]LogMaterial:Warning: Failed to compile Material /Game/Materials/GTFreeMaterials/Materials/bagel_material.bagel_material for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.08-04.26.02:235][422]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.08-04.26.02:325][422]LogMaterial: Missing cached shader map for material bagel_material, compiling. 
+[2017.12.08-04.26.02:325][422]LogMaterial:Warning: Failed to compile Material /Engine/Transient.bagel_material for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.08-04.26.02:325][422]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.08-04.26.02:437][422]LogMaterial: Missing cached shader map for material bagel_material, compiling. 
+[2017.12.08-04.26.02:437][422]LogMaterial:Warning: Failed to compile Material /Engine/Transient.bagel_material for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.08-04.26.02:437][422]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.08-04.26.02:442][422]LogMaterial: Missing cached shader map for material bagel_material, compiling. 
+[2017.12.08-04.26.02:442][422]LogMaterial:Warning: Failed to compile Material /Engine/Transient.bagel_material for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.08-04.26.02:442][422]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.08-04.26.02:470][422]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.12.08-04.26.02:472][422]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_5, compiling. 
+[2017.12.08-04.26.02:483][422]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2017.12.08-04.26.02:492][422]LogSlate: Took 0.002765 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.08-04.26.12:373][ 45]LogTexture:Display: Building textures: bagel_0 (AutoDXT, 2048X2048)
+[2017.12.08-04.26.19:802][229]LogMaterial: Missing cached shader map for material bagel_material, compiling. 
+[2017.12.08-04.26.19:831][229]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.12.08-04.26.23:064][401]LogMaterialEditor: Saving and Compiling material bagel_material
+[2017.12.08-04.26.23:788][401]LogMaterial: Missing cached shader map for material bagel_material, compiling. 
+[2017.12.08-04.26.23:843][401]LogMaterial: Missing cached shader map for material bagel_material, compiling. 
+[2017.12.08-04.26.23:881][401]LogMaterial: Missing cached shader map for material bagel_material, compiling. 
+[2017.12.08-04.26.23:920][401]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bagel_material, compiling. 
+[2017.12.08-04.26.25:499][401]TextureStreamingBuild:Display: Compiling optional shaders took 1.586 seconds.
+[2017.12.08-04.26.27:910][401]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.08-04.26.27:994][401]LogSavePackage: Save=15.38ms
+[2017.12.08-04.26.27:994][401]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/bagel_materialD256622D4C6F8F88C50A41B6BF21EB0C.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/GTFreeMaterials/Materials/bagel_material.uasset'
+[2017.12.08-04.26.28:003][401]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/GTFreeMaterials/Materials/bagel_material.uasset
+[2017.12.08-04.26.28:015][401]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.12.08-04.26.28:015][401]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.12.08-04.26.28:015][401]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.12.08-04.26.28:015][401]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.08-04.26.31:490][675]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.08-04.26.31:585][675]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.08-04.26.31:600][675]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.08-04.26.31:642][675]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.12.08-04.26.31:647][675]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_5, compiling. 
+[2017.12.08-04.26.47:889][764]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.08-04.26.48:841][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel_half)
+[2017.12.08-04.26.50:044][978]Cmd: DELETE
+[2017.12.08-04.26.50:044][978]Cmd: ACTOR DELETE
+[2017.12.08-04.26.50:049][978]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.08-04.26.50:065][978]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.12.08-04.27.08:606][733]LogAIModule: Creating AISystem for world Toaster_Interior
+[2017.12.08-04.27.09:997][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Bagel/bagel" FILE="../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Models/Bagel/bagel.uasset" SILENT=true
+[2017.12.08-04.27.10:014][733]LogSavePackage: Save=13.10ms
+[2017.12.08-04.27.10:014][733]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/bagel4A5C796844DAFBDFB573F39441FE72EA.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Models/Bagel/bagel.uasset'
+[2017.12.08-04.27.10:023][733]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Models/Bagel/bagel.uasset
+[2017.12.08-04.27.18:701][823]Cmd: MAP LOAD FILE="../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.08-04.27.18:704][823]LightingResults: New page: Lighting Build
+[2017.12.08-04.27.18:705][823]LoadErrors: New page: Loading map: Toaster_Interior.umap
+[2017.12.08-04.27.18:706][823]MapCheck: New page: Map Check
+[2017.12.08-04.27.18:706][823]LightingResults: New page: Lighting Build
+[2017.12.08-04.27.18:733][823]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.08-04.27.18:765][823]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.08-04.27.18:890][823]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.986ms to complete.
+[2017.12.08-04.27.18:897][823]LogFileHelpers: Loading map 'Toaster_Interior' took 0.197
+[2017.12.08-04.27.23:995][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BagelHalf)
+[2017.12.08-04.27.25:458][492]Cmd: DELETE
+[2017.12.08-04.27.25:458][492]Cmd: ACTOR DELETE
+[2017.12.08-04.27.25:464][492]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.08-04.27.25:474][492]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.12.08-04.27.29:262][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BagelHalf2)
+[2017.12.08-04.27.30:549][ 48]Cmd: DELETE
+[2017.12.08-04.27.30:549][ 48]Cmd: ACTOR DELETE
+[2017.12.08-04.27.30:550][ 48]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.08-04.27.30:559][ 48]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.12.08-04.27.41:489][194]LogActorFactory: Actor Factory created bagel
+[2017.12.08-04.27.41:863][235]LogActorFactory: Actor Factory created bagel
+[2017.12.08-04.27.44:458][514]LogSlate: Took 0.001249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.08-04.27.58:042][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel)
+[2017.12.08-04.28.06:115][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel)
+[2017.12.08-04.29.10:266][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel)
+[2017.12.08-04.29.22:313][488]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel2)
+[2017.12.08-04.29.36:612][793]LogSavePackage: Save=133.93ms
+[2017.12.08-04.29.36:612][793]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_InteriorB3E33646458B0CC2BEC8148B816296D6.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-04.29.36:621][793]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-04.29.36:844][793]LogSavePackage: Save=149.14ms
+[2017.12.08-04.29.36:844][793]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltDataB940CF9B4238BF7BD628209347992D62.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-04.29.36:848][793]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-04.29.41:443][218]MapCheck: New page: Map Check
+[2017.12.08-04.29.41:464][218]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.08-04.29.41:464][218]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.08-04.29.41:560][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.08-04.29.41:568][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_ReinforcedGridWall, compiling. 
+[2017.12.08-04.29.41:574][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.12.08-04.29.41:580][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Nick_Glass, compiling. 
+[2017.12.08-04.29.41:587][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial, compiling. 
+[2017.12.08-04.29.41:594][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_DiamondPlateSciFi, compiling. 
+[2017.12.08-04.29.41:601][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ground_GrassThickGreen, compiling. 
+[2017.12.08-04.29.41:608][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_CyberCube, compiling. 
+[2017.12.08-04.29.41:616][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GreenLight, compiling. 
+[2017.12.08-04.29.41:623][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Alarm_Shiny_Metal, compiling. 
+[2017.12.08-04.29.41:630][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatteSilver, compiling. 
+[2017.12.08-04.29.41:636][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy White, compiling. 
+[2017.12.08-04.29.41:643][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Red, compiling. 
+[2017.12.08-04.29.41:650][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy material0, compiling. 
+[2017.12.08-04.29.41:657][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Light, compiling. 
+[2017.12.08-04.29.41:664][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tile_Coloredtiles, compiling. 
+[2017.12.08-04.29.41:671][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2017.12.08-04.29.41:677][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bagel_material, compiling. 
+[2017.12.08-04.29.43:383][218]TextureStreamingBuild:Display: Compiling optional shaders took 1.857 seconds.
+[2017.12.08-04.29.43:393][218]LogLevel:Display: Export Material TexCoord Scales took 0.010 seconds.
+[2017.12.08-04.29.43:405][218]TextureStreamingBuild:Display: Build Texture Streaming took 0.011 seconds.
+[2017.12.08-04.29.43:416][218]LightingResults: New page: Lighting Build - Dec 7, 2017, 2:29:43 PM
+[2017.12.08-04.29.43:472][218]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.08-04.29.43:521][218]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.08-04.29.43:537][218]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.08-04.29.44:567][218]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.08-04.29.44:567][218]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11660
+[2017.12.08-04.29.50:106][218]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.12.08-04.29.50:107][218]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.08-04.29.50:107][218]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.08-04.29.50:107][218]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.08-04.29.50:107][218]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.08-04.29.50:107][218]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.08-04.29.50:394][218]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.08-04.29.50:394][218]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 2:29:50 PM
+[2017.12.08-04.29.50:397][218]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-04.29.50:397][218]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-04.29.50:398][218]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.12.08-04.29.50:542][218]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 147.993ms to complete.
+[2017.12.08-04.29.50:565][218]LogEditorBuildUtils: Build time 0:09
+[2017.12.08-04.29.50:713][219]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer bagel_material, compiling. 
+[2017.12.08-04.29.50:723][219]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer bagel_material, compiling. 
+[2017.12.08-04.29.59:685][247]Job is a success!
+[2017.12.08-04.30.01:406][248]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.12.08-04.30.01:406][248]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.12.08-04.30.01:406][248]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2017.12.08-04.30.01:406][248]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2017.12.08-04.30.01:406][248]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2017.12.08-04.30.01:406][248]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2017.12.08-04.30.01:507][248]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2017.12.08-04.30.01:507][248]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X128)
+[2017.12.08-04.30.01:507][248]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 512X512)
+[2017.12.08-04.30.01:542][248]Lightmass on ALF: 8.68 sec total, 168 ms importing, 45 ms setup, 826 ms photons, 7.46 sec processing, 0 ms extra exporting [121/121 mappings]. Threads: 29.8 sec total, 16.5 sec processing.
+[2017.12.08-04.30.01:613][248]LogStaticLightingSystem: Illumination: 17.8 sec (907 ms encoding lightmaps, 98 ms encoding shadowmaps)
+[2017.12.08-04.30.01:613][248]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2017.12.08-04.30.01:613][248]LogStaticLightingSystem: Shadowmap texture memory: 2.0 MB (0.7 MB streaming, 1.3 MB non-streaming), 3 textures
+[2017.12.08-04.30.02:111][248]DumpUnbuiltLightIteractions
+[2017.12.08-04.30.02:111][248]Lights with unbuilt interactions: 0
+[2017.12.08-04.30.02:111][248]
+[2017.12.08-04.30.02:111][248]Primitives with unbuilt interactions: 0
+[2017.12.08-04.30.02:125][249]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.08-04.30.02:126][249]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 2:30:02 PM
+[2017.12.08-04.30.02:126][249]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-04.30.02:127][249]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-04.30.02:280][249]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 154.627ms to complete.
+[2017.12.08-04.30.08:500][652]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel)
+[2017.12.08-04.30.16:173][335]LogSavePackage: Save=133.02ms
+[2017.12.08-04.30.16:173][335]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior86074A7E41D1A55ACCB8BD99D1FC6FCE.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-04.30.16:182][335]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-04.30.16:332][335]LogSavePackage: Save=108.42ms
+[2017.12.08-04.30.16:332][335]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltDataF200DE8F4EB57042CEC4FEA4A4D28C48.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-04.30.16:340][335]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-04.30.17:494][445]MapCheck: New page: Map Check
+[2017.12.08-04.30.17:517][445]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.08-04.30.17:517][445]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.08-04.30.17:575][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.08-04.30.17:582][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_ReinforcedGridWall, compiling. 
+[2017.12.08-04.30.17:589][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2017.12.08-04.30.17:596][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Nick_Glass, compiling. 
+[2017.12.08-04.30.17:607][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial, compiling. 
+[2017.12.08-04.30.17:614][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_DiamondPlateSciFi, compiling. 
+[2017.12.08-04.30.17:621][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ground_GrassThickGreen, compiling. 
+[2017.12.08-04.30.17:627][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_CyberCube, compiling. 
+[2017.12.08-04.30.17:634][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GreenLight, compiling. 
+[2017.12.08-04.30.17:641][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Alarm_Shiny_Metal, compiling. 
+[2017.12.08-04.30.17:647][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatteSilver, compiling. 
+[2017.12.08-04.30.17:654][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy White, compiling. 
+[2017.12.08-04.30.17:660][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Red, compiling. 
+[2017.12.08-04.30.17:667][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy material0, compiling. 
+[2017.12.08-04.30.17:673][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Light, compiling. 
+[2017.12.08-04.30.17:680][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tile_Coloredtiles, compiling. 
+[2017.12.08-04.30.17:686][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2017.12.08-04.30.17:692][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bagel_material, compiling. 
+[2017.12.08-04.30.19:566][445]TextureStreamingBuild:Display: Compiling optional shaders took 1.995 seconds.
+[2017.12.08-04.30.19:577][445]LogLevel:Display: Export Material TexCoord Scales took 0.011 seconds.
+[2017.12.08-04.30.19:588][445]TextureStreamingBuild:Display: Build Texture Streaming took 0.011 seconds.
+[2017.12.08-04.30.19:599][445]LightingResults: New page: Lighting Build - Dec 7, 2017, 2:30:19 PM
+[2017.12.08-04.30.19:609][445]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.08-04.30.19:612][445]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.08-04.30.19:612][445]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.08-04.30.19:613][445]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.08-04.30.19:613][445]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11660
+[2017.12.08-04.30.24:160][445]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.12.08-04.30.24:160][445]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.08-04.30.24:160][445]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.08-04.30.24:160][445]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.08-04.30.24:160][445]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.08-04.30.24:160][445]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.08-04.30.24:308][445]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.08-04.30.24:308][445]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 2:30:24 PM
+[2017.12.08-04.30.24:308][445]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-04.30.24:309][445]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-04.30.24:309][445]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.12.08-04.30.24:430][445]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 121.796ms to complete.
+[2017.12.08-04.30.24:453][445]LogEditorBuildUtils: Build time 0:06
+[2017.12.08-04.30.33:294][779]Job is a success!
+[2017.12.08-04.30.34:128][780]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.12.08-04.30.34:128][780]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.12.08-04.30.34:128][780]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.12.08-04.30.34:128][780]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.12.08-04.30.34:128][780]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.12.08-04.30.34:128][780]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.12.08-04.30.34:211][780]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2017.12.08-04.30.34:211][780]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X128)
+[2017.12.08-04.30.34:211][780]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 512X512)
+[2017.12.08-04.30.34:253][780]LogStaticLightingSystem: Illumination: 14.6 sec (674 ms encoding lightmaps, 73 ms encoding shadowmaps)
+[2017.12.08-04.30.34:253][780]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2017.12.08-04.30.34:253][780]LogStaticLightingSystem: Shadowmap texture memory: 2.0 MB (0.7 MB streaming, 1.3 MB non-streaming), 3 textures
+[2017.12.08-04.30.35:165][780]Lightmass on ALF: 8.77 sec total, 132 ms importing, 35 ms setup, 792 ms photons, 7.75 sec processing, 0 ms extra exporting [121/121 mappings]. Threads: 30.9 sec total, 20.0 sec processing.
+[2017.12.08-04.30.35:165][780]DumpUnbuiltLightIteractions
+[2017.12.08-04.30.35:165][780]Lights with unbuilt interactions: 0
+[2017.12.08-04.30.35:165][780]
+[2017.12.08-04.30.35:165][780]Primitives with unbuilt interactions: 0
+[2017.12.08-04.30.35:176][781]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.08-04.30.35:176][781]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 2:30:35 PM
+[2017.12.08-04.30.35:178][781]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-04.30.35:178][781]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-04.30.35:297][781]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 120.204ms to complete.
+[2017.12.08-04.30.55:526][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel)
+[2017.12.08-04.30.59:578][171]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (bagel2)
+[2017.12.08-04.31.00:314][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel2)
+[2017.12.08-04.31.07:788][885]LogSavePackage: Save=135.46ms
+[2017.12.08-04.31.07:788][885]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior7F549A9E402FD6387B713C82E2F7C568.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-04.31.07:797][885]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-04.31.07:949][885]LogSavePackage: Save=109.14ms
+[2017.12.08-04.31.07:949][885]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltDataDAE930DC4AE41C80DAAA26BA15F78129.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-04.31.07:957][885]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-04.31.08:510][937]MapCheck: New page: Map Check
+[2017.12.08-04.31.08:530][937]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.08-04.31.08:530][937]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.08-04.31.08:591][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.08-04.31.08:598][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_ReinforcedGridWall, compiling. 
+[2017.12.08-04.31.08:603][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_4, compiling. 
+[2017.12.08-04.31.08:608][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Nick_Glass, compiling. 
+[2017.12.08-04.31.08:615][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial, compiling. 
+[2017.12.08-04.31.08:623][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_DiamondPlateSciFi, compiling. 
+[2017.12.08-04.31.08:630][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ground_GrassThickGreen, compiling. 
+[2017.12.08-04.31.08:641][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_CyberCube, compiling. 
+[2017.12.08-04.31.08:648][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GreenLight, compiling. 
+[2017.12.08-04.31.08:659][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Alarm_Shiny_Metal, compiling. 
+[2017.12.08-04.31.08:665][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatteSilver, compiling. 
+[2017.12.08-04.31.08:672][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy White, compiling. 
+[2017.12.08-04.31.08:678][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Red, compiling. 
+[2017.12.08-04.31.08:685][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy material0, compiling. 
+[2017.12.08-04.31.08:692][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Light, compiling. 
+[2017.12.08-04.31.08:698][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tile_Coloredtiles, compiling. 
+[2017.12.08-04.31.08:705][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2017.12.08-04.31.08:712][937]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bagel_material, compiling. 
+[2017.12.08-04.31.10:451][937]TextureStreamingBuild:Display: Compiling optional shaders took 1.865 seconds.
+[2017.12.08-04.31.10:460][937]LogLevel:Display: Export Material TexCoord Scales took 0.009 seconds.
+[2017.12.08-04.31.10:472][937]TextureStreamingBuild:Display: Build Texture Streaming took 0.011 seconds.
+[2017.12.08-04.31.10:481][937]LightingResults: New page: Lighting Build - Dec 7, 2017, 2:31:10 PM
+[2017.12.08-04.31.10:491][937]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.08-04.31.10:493][937]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.08-04.31.10:493][937]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.08-04.31.10:494][937]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.08-04.31.10:494][937]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11660
+[2017.12.08-04.31.15:034][937]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.12.08-04.31.15:034][937]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.08-04.31.15:034][937]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.08-04.31.15:034][937]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.08-04.31.15:034][937]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.08-04.31.15:034][937]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.08-04.31.15:208][937]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.08-04.31.15:209][937]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 2:31:15 PM
+[2017.12.08-04.31.15:209][937]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-04.31.15:209][937]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-04.31.15:209][937]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.12.08-04.31.15:328][937]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 119.914ms to complete.
+[2017.12.08-04.31.15:351][937]LogEditorBuildUtils: Build time 0:06
+[2017.12.08-04.31.25:341][424]Job is a success!
+[2017.12.08-04.31.26:172][425]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.12.08-04.31.26:172][425]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.12.08-04.31.26:172][425]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2017.12.08-04.31.26:172][425]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2017.12.08-04.31.26:172][425]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2017.12.08-04.31.26:172][425]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2017.12.08-04.31.26:263][425]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 32X32)
+[2017.12.08-04.31.26:263][425]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 1024X128)
+[2017.12.08-04.31.26:263][425]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 512X512)
+[2017.12.08-04.31.26:294][425]Lightmass on ALF: 10.2 sec total, 152 ms importing, 43 ms setup, 1.15 sec photons, 8.80 sec processing, 0 ms extra exporting [121/121 mappings]. Threads: 35.1 sec total, 23.0 sec processing.
+[2017.12.08-04.31.26:305][425]LogStaticLightingSystem: Illumination: 15.7 sec (678 ms encoding lightmaps, 82 ms encoding shadowmaps)
+[2017.12.08-04.31.26:305][425]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2017.12.08-04.31.26:305][425]LogStaticLightingSystem: Shadowmap texture memory: 2.0 MB (0.7 MB streaming, 1.3 MB non-streaming), 3 textures
+[2017.12.08-04.31.27:041][425]DumpUnbuiltLightIteractions
+[2017.12.08-04.31.27:041][425]Lights with unbuilt interactions: 0
+[2017.12.08-04.31.27:041][425]
+[2017.12.08-04.31.27:041][425]Primitives with unbuilt interactions: 0
+[2017.12.08-04.31.27:054][426]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.08-04.31.27:054][426]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 2:31:27 PM
+[2017.12.08-04.31.27:057][426]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-04.31.27:057][426]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-04.31.27:178][426]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 123.365ms to complete.
+[2017.12.08-04.32.20:751][ 74]LogSavePackage: Save=20.83ms
+[2017.12.08-04.32.20:751][ 74]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/bagel_009FAEFF24CFF6C2250046DB0E47276C8.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/GTFreeMaterials/Textures/bagel_0.uasset'
+[2017.12.08-04.32.20:760][ 74]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/GTFreeMaterials/Textures/bagel_0.uasset
+[2017.12.08-04.32.20:921][ 74]LogSavePackage: Save=5.37ms
+[2017.12.08-04.32.20:921][ 74]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/bagel_materialA3211F08450BBA9A8BB1CDBD4D07067A.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/GTFreeMaterials/Materials/bagel_material.uasset'
+[2017.12.08-04.32.20:925][ 74]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Materials/GTFreeMaterials/Materials/bagel_material.uasset
+[2017.12.08-04.32.36:159][385]LogSavePackage: Save=135.67ms
+[2017.12.08-04.32.36:159][385]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_InteriorE2EAD15748029AE4DA404D8C2CEFA174.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-04.32.36:168][385]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-04.32.36:321][385]LogSavePackage: Save=110.42ms
+[2017.12.08-04.32.36:321][385]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltData490DD5DE4C77C737FA51DB98283B2B37.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-04.32.36:329][385]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-04.33.30:172][834]LogSavePackage: Save=11.48ms
+[2017.12.08-04.33.30:172][834]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/DescendingF5E2E29D41438C5F07B7B5BCCE75293D.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/MiscellanousShots/Descending.uasset'
+[2017.12.08-04.33.30:181][834]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/MiscellanousShots/Descending.uasset
+[2017.12.08-04.42.36:083][677]LogSavePackage: Save=136.01ms
+[2017.12.08-04.42.36:083][677]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_Auto1247A6FD04B4AF4AB597928B03A462DB6.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Maps/Toaster_Interior_Auto1.umap'
+[2017.12.08-04.42.36:087][677]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Maps/Toaster_Interior_Auto1.umap
+[2017.12.08-04.42.36:090][677]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Toaster_Interior' took 0.179
+[2017.12.08-04.42.36:090][677]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.179
+[2017.12.08-04.49.15:967][ 45]LogSlate: Took 0.000901 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.12.08-04.49.30:736][651]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (bagel)
+[2017.12.08-04.49.31:720][745]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (bagel)
+[2017.12.08-04.49.34:378][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel)
+[2017.12.08-04.49.38:680][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel)
+[2017.12.08-04.49.40:685][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel)
+[2017.12.08-04.49.40:752][601]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.12.08-04.50.06:833][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel)
+[2017.12.08-04.52.13:980][996]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel)
+[2017.12.08-04.52.58:867][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel)
+[2017.12.08-04.53.34:382][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel)
+[2017.12.08-04.53.43:743][764]Cmd: TRANSACTION UNDO
+[2017.12.08-04.53.43:743][764]LogEditorTransaction: Undo Animatable Property Changed
+[2017.12.08-04.53.54:805][838]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Console)
+[2017.12.08-04.53.56:596][  0]Cmd: TRANSACTION UNDO
+[2017.12.08-04.53.56:596][  0]LogEditorTransaction: Undo Animatable Property Changed
+[2017.12.08-04.53.57:891][106]Cmd: TRANSACTION UNDO
+[2017.12.08-04.53.57:892][106]LogEditorTransaction: Undo Select Brush Surface
+[2017.12.08-04.53.58:617][164]Cmd: TRANSACTION UNDO
+[2017.12.08-04.53.58:617][164]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.12.08-04.54.18:568][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.12.08-04.55.10:770][831]Cmd: TRANSACTION UNDO
+[2017.12.08-04.55.10:770][831]LogEditorTransaction: Undo Animatable Property Changed
+[2017.12.08-04.55.59:589][754]LogEditorViewport: Clicking on Actor (context menu): LevelSequenceActor (Shot-16)
+[2017.12.08-04.56.41:941][630]LogSavePackage: Save=133.28ms
+[2017.12.08-04.56.41:941][630]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_Auto2E33E93DC40D1CF51560758AE19373D1A.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Maps/Toaster_Interior_Auto2.umap'
+[2017.12.08-04.56.41:946][630]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Maps/Toaster_Interior_Auto2.umap
+[2017.12.08-04.56.41:950][630]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Toaster_Interior' took 0.182
+[2017.12.08-04.56.41:950][630]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.182
+[2017.12.08-04.56.41:956][630]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cinematics/Sequences/Shots/MiscellanousShots/Shot-BagelDescending] ([1] browsable assets)...
+[2017.12.08-04.56.41:956][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cinematics/Sequences/Shots/MiscellanousShots/Shot-BagelDescending]
+[2017.12.08-04.56.41:971][630]LogSavePackage: Save=12.31ms
+[2017.12.08-04.56.41:971][630]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot-BagelDescending_Auto21BBF8C6A449DB7980D03D8B128739182.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Cinematics/Sequences/Shots/MiscellanousShots/Shot-BagelDescending_Auto2.uasset'
+[2017.12.08-04.56.41:975][630]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Autosaves/Game/Cinematics/Sequences/Shots/MiscellanousShots/Shot-BagelDescending_Auto2.uasset
+[2017.12.08-04.56.41:975][630]LogFileHelpers: Auto-saving content packages took 0.024
+[2017.12.08-05.01.08:919][901]LogSavePackage: Save=11.79ms
+[2017.12.08-05.01.08:919][901]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/DescendingE96136F4492CC7E2E67446A6D6274D26.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/Bagel-Descending/Descending.uasset'
+[2017.12.08-05.01.08:927][901]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/Bagel-Descending/Descending.uasset
+[2017.12.08-05.01.08:947][901]LogSavePackage: Save=13.55ms
+[2017.12.08-05.01.08:947][901]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot-BagelDescendingD88FB4C0458D64DE0DD2E1961EDD93A9.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/Bagel-Descending/Shot-BagelDescending.uasset'
+[2017.12.08-05.01.08:955][901]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/Bagel-Descending/Shot-BagelDescending.uasset
+[2017.12.08-05.01.14:250][405]LogSavePackage: Save=11.18ms
+[2017.12.08-05.01.14:250][405]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/DescendingCF135DC74A65E8BA8F4479B26151B75A.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/MiscellanousShots/Bagel-Descending/Descending.uasset'
+[2017.12.08-05.01.14:259][405]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/MiscellanousShots/Bagel-Descending/Descending.uasset
+[2017.12.08-05.01.14:279][405]LogSavePackage: Save=12.63ms
+[2017.12.08-05.01.14:279][405]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot-BagelDescendingD9586A5A42017C9C00B914B1174E7B49.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/MiscellanousShots/Bagel-Descending/Shot-BagelDescending.uasset'
+[2017.12.08-05.01.14:288][405]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/MiscellanousShots/Bagel-Descending/Shot-BagelDescending.uasset
+[2017.12.08-05.03.16:362][104]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.08-05.03.28:500][330]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.08-05.04.07:354][532]MapCheck: New page: Map Check
+[2017.12.08-05.04.07:378][532]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.08-05.04.07:378][532]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.08-05.04.07:444][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.08-05.04.07:452][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_ReinforcedGridWall, compiling. 
+[2017.12.08-05.04.07:458][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_5, compiling. 
+[2017.12.08-05.04.07:464][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Nick_Glass, compiling. 
+[2017.12.08-05.04.07:472][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial, compiling. 
+[2017.12.08-05.04.07:483][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_DiamondPlateSciFi, compiling. 
+[2017.12.08-05.04.07:490][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ground_GrassThickGreen, compiling. 
+[2017.12.08-05.04.07:499][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_CyberCube, compiling. 
+[2017.12.08-05.04.07:506][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GreenLight, compiling. 
+[2017.12.08-05.04.07:513][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Alarm_Shiny_Metal, compiling. 
+[2017.12.08-05.04.07:519][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatteSilver, compiling. 
+[2017.12.08-05.04.07:526][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy White, compiling. 
+[2017.12.08-05.04.07:532][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Red, compiling. 
+[2017.12.08-05.04.07:539][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy material0, compiling. 
+[2017.12.08-05.04.07:545][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Light, compiling. 
+[2017.12.08-05.04.07:552][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tile_Coloredtiles, compiling. 
+[2017.12.08-05.04.07:558][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2017.12.08-05.04.07:565][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bagel_material, compiling. 
+[2017.12.08-05.04.08:954][532]TextureStreamingBuild:Display: Compiling optional shaders took 1.521 seconds.
+[2017.12.08-05.04.08:967][532]LogLevel:Display: Export Material TexCoord Scales took 0.013 seconds.
+[2017.12.08-05.04.08:978][532]TextureStreamingBuild:Display: Build Texture Streaming took 0.011 seconds.
+[2017.12.08-05.04.08:988][532]LightingResults: New page: Lighting Build - Dec 7, 2017, 3:04:08 PM
+[2017.12.08-05.04.09:000][532]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.08-05.04.09:003][532]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.08-05.04.09:003][532]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.08-05.04.09:004][532]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.08-05.04.09:004][532]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11660
+[2017.12.08-05.04.13:540][532]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.12.08-05.04.13:540][532]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.08-05.04.13:540][532]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.08-05.04.13:540][532]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.08-05.04.13:540][532]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.08-05.04.13:540][532]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.08-05.04.13:741][532]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.08-05.04.13:741][532]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 3:04:13 PM
+[2017.12.08-05.04.13:751][532]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.04.13:751][532]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.04.13:882][532]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 140.708ms to complete.
+[2017.12.08-05.04.13:905][532]LogEditorBuildUtils: Build time 0:06
+[2017.12.08-05.04.19:279][803]Cmd: SELECT NONE
+[2017.12.08-05.04.23:409][909]Job is a success!
+[2017.12.08-05.04.24:723][910]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.12.08-05.04.24:723][910]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.12.08-05.04.24:723][910]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.12.08-05.04.24:723][910]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.12.08-05.04.24:723][910]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.12.08-05.04.24:723][910]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.12.08-05.04.24:810][910]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 32X32)
+[2017.12.08-05.04.24:810][910]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 1024X128)
+[2017.12.08-05.04.24:810][910]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 512X512)
+[2017.12.08-05.04.24:871][910]Lightmass on ALF: 9.93 sec total, 161 ms importing, 38 ms setup, 888 ms photons, 8.79 sec processing, 0 ms extra exporting [119/119 mappings]. Threads: 34.9 sec total, 21.4 sec processing.
+[2017.12.08-05.04.24:891][910]LogStaticLightingSystem: Illumination: 15.4 sec (728 ms encoding lightmaps, 82 ms encoding shadowmaps)
+[2017.12.08-05.04.24:891][910]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2017.12.08-05.04.24:891][910]LogStaticLightingSystem: Shadowmap texture memory: 2.0 MB (0.7 MB streaming, 1.3 MB non-streaming), 3 textures
+[2017.12.08-05.04.25:545][910]DumpUnbuiltLightIteractions
+[2017.12.08-05.04.25:545][910]Lights with unbuilt interactions: 0
+[2017.12.08-05.04.25:545][910]
+[2017.12.08-05.04.25:545][910]Primitives with unbuilt interactions: 0
+[2017.12.08-05.04.25:554][911]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.08-05.04.25:554][911]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 3:04:25 PM
+[2017.12.08-05.04.25:554][911]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.04.25:555][911]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.04.25:686][911]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 131.298ms to complete.
+[2017.12.08-05.05.44:513][  1]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.08-05.06.41:474][108]LogSavePackage: Save=140.45ms
+[2017.12.08-05.06.41:474][108]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior46D662BA4BE0C20D7F871196F9005FAF.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-05.06.41:482][108]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-05.06.41:654][108]LogSavePackage: Save=109.09ms
+[2017.12.08-05.06.41:654][108]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltData7FDA48E14663811874367B82F5E2303A.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-05.06.41:662][108]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-05.07.01:103][230]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Console)
+[2017.12.08-05.07.58:727][ 19]LogSavePackage: Save=131.64ms
+[2017.12.08-05.07.58:727][ 19]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_InteriorBE6A83DB45BBF67AA743D08773471832.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-05.07.58:735][ 19]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-05.07.58:880][ 19]LogSavePackage: Save=103.39ms
+[2017.12.08-05.07.58:880][ 19]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltDataF260B17D4B66BE744AA391BF69CE0F89.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-05.07.58:884][ 19]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-05.08.53:983][ 34]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (bagel)
+[2017.12.08-05.09.09:125][506]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel2)
+[2017.12.08-05.09.24:828][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel)
+[2017.12.08-05.09.29:247][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel2)
+[2017.12.08-05.09.45:625][ 71]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (robot-Tpose)
+[2017.12.08-05.10.01:871][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel2)
+[2017.12.08-05.11.11:465][764]MapCheck: New page: Map Check
+[2017.12.08-05.11.11:485][764]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.08-05.11.11:485][764]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.08-05.11.11:544][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.08-05.11.11:552][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_ReinforcedGridWall, compiling. 
+[2017.12.08-05.11.11:557][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_6, compiling. 
+[2017.12.08-05.11.11:563][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Nick_Glass, compiling. 
+[2017.12.08-05.11.11:570][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial, compiling. 
+[2017.12.08-05.11.11:577][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_DiamondPlateSciFi, compiling. 
+[2017.12.08-05.11.11:584][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ground_GrassThickGreen, compiling. 
+[2017.12.08-05.11.11:591][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_CyberCube, compiling. 
+[2017.12.08-05.11.11:597][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GreenLight, compiling. 
+[2017.12.08-05.11.11:604][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Alarm_Shiny_Metal, compiling. 
+[2017.12.08-05.11.11:610][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatteSilver, compiling. 
+[2017.12.08-05.11.11:616][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy White, compiling. 
+[2017.12.08-05.11.11:624][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Red, compiling. 
+[2017.12.08-05.11.11:630][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy material0, compiling. 
+[2017.12.08-05.11.11:637][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Light, compiling. 
+[2017.12.08-05.11.11:643][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tile_Coloredtiles, compiling. 
+[2017.12.08-05.11.11:649][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2017.12.08-05.11.11:656][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bagel_material, compiling. 
+[2017.12.08-05.11.11:662][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_CineMat_CameraBody, compiling. 
+[2017.12.08-05.11.11:668][764]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_CineMat_CamViewFinder, compiling. 
+[2017.12.08-05.11.13:167][764]TextureStreamingBuild:Display: Compiling optional shaders took 1.628 seconds.
+[2017.12.08-05.11.13:182][764]LogLevel:Display: Export Material TexCoord Scales took 0.015 seconds.
+[2017.12.08-05.11.13:195][764]TextureStreamingBuild:Display: Build Texture Streaming took 0.012 seconds.
+[2017.12.08-05.11.13:208][764]LightingResults: New page: Lighting Build - Dec 7, 2017, 3:11:13 PM
+[2017.12.08-05.11.13:219][764]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.08-05.11.13:220][764]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.08-05.11.13:221][764]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.08-05.11.13:222][764]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.08-05.11.13:222][764]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11660
+[2017.12.08-05.11.17:758][764]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.12.08-05.11.17:758][764]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.08-05.11.17:758][764]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.08-05.11.17:759][764]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.08-05.11.17:759][764]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.08-05.11.17:759][764]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.08-05.11.17:944][764]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.08-05.11.17:944][764]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 3:11:17 PM
+[2017.12.08-05.11.17:944][764]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.11.17:944][764]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.11.18:064][764]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 120.508ms to complete.
+[2017.12.08-05.11.18:087][764]LogEditorBuildUtils: Build time 0:06
+[2017.12.08-05.11.24:951][ 78]Job is a success!
+[2017.12.08-05.11.25:730][ 79]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.12.08-05.11.25:730][ 79]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.12.08-05.11.25:730][ 79]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2017.12.08-05.11.25:730][ 79]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2017.12.08-05.11.25:730][ 79]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2017.12.08-05.11.25:730][ 79]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2017.12.08-05.11.25:811][ 79]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8, 32X32)
+[2017.12.08-05.11.25:811][ 79]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8, 1024X128)
+[2017.12.08-05.11.25:811][ 79]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8, 512X512)
+[2017.12.08-05.11.25:853][ 79]LogStaticLightingSystem: Illumination: 12.6 sec (628 ms encoding lightmaps, 72 ms encoding shadowmaps)
+[2017.12.08-05.11.25:853][ 79]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2017.12.08-05.11.25:853][ 79]LogStaticLightingSystem: Shadowmap texture memory: 2.0 MB (0.7 MB streaming, 1.3 MB non-streaming), 3 textures
+[2017.12.08-05.11.26:763][ 79]DumpUnbuiltLightIteractions
+[2017.12.08-05.11.26:763][ 79]Lights with unbuilt interactions: 0
+[2017.12.08-05.11.26:763][ 79]
+[2017.12.08-05.11.26:763][ 79]Primitives with unbuilt interactions: 0
+[2017.12.08-05.11.26:775][ 80]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.08-05.11.26:775][ 80]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 3:11:26 PM
+[2017.12.08-05.11.26:778][ 80]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.11.26:778][ 80]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.11.26:895][ 80]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 119.9ms to complete.
+[2017.12.08-05.11.54:063][673]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (alarm_Top2)
+[2017.12.08-05.12.10:405][177]LogSavePackage: Save=131.22ms
+[2017.12.08-05.12.10:405][177]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior84BD7B8840C94EE96FD6C3B8B605092B.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-05.12.10:413][177]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-05.12.10:564][177]LogSavePackage: Save=104.45ms
+[2017.12.08-05.12.10:564][177]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltData0FBCC79540201878E88FD2805B2626AA.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-05.12.10:573][177]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-05.12.30:156][ 49]LogSavePackage: Save=133.41ms
+[2017.12.08-05.12.30:156][ 49]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_InteriorEA5F23794763387C709D05A5F6191117.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-05.12.30:163][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-05.12.30:311][ 49]LogSavePackage: Save=104.30ms
+[2017.12.08-05.12.30:311][ 49]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltData864260CD4436DB24C27D3DBB2AF293A9.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-05.12.30:315][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-05.14.41:314][686]LogSavePackage: Save=133.05ms
+[2017.12.08-05.14.41:314][686]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior78BD47B94D30DE09798421AE63DC3E9B.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-05.14.41:322][686]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-05.14.41:473][686]LogSavePackage: Save=106.78ms
+[2017.12.08-05.14.41:473][686]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltDataF33A7FE149E82C12E4AE9DA54B1A8A20.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-05.14.41:477][686]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-05.15.07:988][531]LogSavePackage: Save=131.38ms
+[2017.12.08-05.15.07:988][531]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior219806FD4398FDBDC4DDB291E0819062.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-05.15.07:996][531]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-05.15.08:145][531]LogSavePackage: Save=107.43ms
+[2017.12.08-05.15.08:145][531]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltData37D09E794FDE54D34E2BA5B144FA503F.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-05.15.08:149][531]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-05.17.10:774][907]LogSavePackage: Save=127.55ms
+[2017.12.08-05.17.10:774][907]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior5F7F3F574BBE7665F0357CA54FE2113C.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-05.17.10:781][907]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-05.17.10:932][907]LogSavePackage: Save=104.45ms
+[2017.12.08-05.17.10:932][907]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltData14C828E94F67DB1AD0A28F9BDBF7F59A.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-05.17.10:935][907]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-05.17.57:574][142]LogSavePackage: Save=13.38ms
+[2017.12.08-05.17.57:575][142]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot21-DifferentAngle5E46D0FB46134810BD5B6881431F15DC.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/Shot-21/Shot21-DifferentAngle.uasset'
+[2017.12.08-05.17.57:582][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/Shot-21/Shot21-DifferentAngle.uasset
+[2017.12.08-05.18.50:124][594]LogSavePackage: Save=129.57ms
+[2017.12.08-05.18.50:124][594]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior8E9D945D4E033761C50CFCA9F4A32B27.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-05.18.50:131][594]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-05.18.50:278][594]LogSavePackage: Save=102.68ms
+[2017.12.08-05.18.50:278][594]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltData09B4320045665FF3076DB1B2EC591D8B.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-05.18.50:282][594]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-05.19.07:879][542]LogSavePackage: Save=130.93ms
+[2017.12.08-05.19.07:879][542]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior6E70F12B4237BFD9C78D768A1959919C.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-05.19.07:886][542]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-05.19.08:035][542]LogSavePackage: Save=102.16ms
+[2017.12.08-05.19.08:035][542]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltDataE5953E04498B13995CA8AE914DDFFE29.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-05.19.08:039][542]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-05.21.10:013][831]LogSavePackage: Save=14.38ms
+[2017.12.08-05.21.10:013][831]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot21-DifferentAngle35C96C0B041A378DFFD43CFB094128542.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/Shot-21/Shot21-DifferentAngle3.uasset'
+[2017.12.08-05.21.10:021][831]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/Shot-21/Shot21-DifferentAngle3.uasset
+[2017.12.08-05.23.52:895][548]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/alrod_000/Downloads/Button.fbx)
+[2017.12.08-05.23.52:901][548]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.12.08-05.23.52:901][548]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.12.08-05.23.52:901][548]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.12.08-05.23.52:901][548]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.12.08-05.23.52:901][548]LogFbx: ItemName: Material, ItemCount : 1
+[2017.12.08-05.23.52:901][548]LogFbx: ItemName: Model, ItemCount : 2
+[2017.12.08-05.23.52:906][548]LogFbx: Loading FBX Scene from ../../../../../../Users/alrod_000/Downloads/Button.fbx
+[2017.12.08-05.23.52:913][548]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.08-05.23.55:935][548]LogFbx: Loading FBX Scene from ../../../../../../Users/alrod_000/Downloads/Button.fbx
+[2017.12.08-05.23.55:941][548]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.08-05.23.55:944][548]LogLinker: Can't find file '/Game/Models/Button/lambert1'
+[2017.12.08-05.23.55:944][548]LogLinker: Can't find file '/Game/Models/Button/lambert1'
+[2017.12.08-05.23.55:951][548]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.12.08-05.23.55:965][548]LogFbx:Warning: Triangulating static mesh pCylinder1
+[2017.12.08-05.23.55:971][548]LogStaticMesh: Building static mesh Button_pCylinder1...
+[2017.12.08-05.23.55:973][548]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Button/Button_pCylinder1.Button_pCylinder1
+[2017.12.08-05.23.55:982][548]LogFbx:Warning: Triangulating static mesh pPipe1
+[2017.12.08-05.23.56:001][548]LogStaticMesh: Building static mesh Button_pPipe1...
+[2017.12.08-05.23.56:003][548]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Button/Button_pPipe1.Button_pPipe1
+[2017.12.08-05.23.56:014][548]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.12.08-05.23.56:014][548]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.08-05.23.56:014][548]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.08-05.24.33:093][731]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/alrod_000/Downloads/Speaker.fbx)
+[2017.12.08-05.24.33:102][731]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.12.08-05.24.33:102][731]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2017.12.08-05.24.33:102][731]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.12.08-05.24.33:102][731]LogFbx: ItemName: Model, ItemCount : 4
+[2017.12.08-05.24.33:102][731]LogFbx: ItemName: Material, ItemCount : 3
+[2017.12.08-05.24.33:107][731]LogFbx: Loading FBX Scene from ../../../../../../Users/alrod_000/Downloads/Speaker.fbx
+[2017.12.08-05.24.33:125][731]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.08-05.24.35:300][731]LogFbx: Loading FBX Scene from ../../../../../../Users/alrod_000/Downloads/Speaker.fbx
+[2017.12.08-05.24.35:316][731]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.08-05.24.35:319][731]LogLinker: Can't find file '/Game/Models/Speaker/Material_003'
+[2017.12.08-05.24.35:319][731]LogLinker: Can't find file '/Game/Models/Speaker/Material_003'
+[2017.12.08-05.24.35:326][731]LogMaterial: Missing cached shader map for material Material_003, compiling. 
+[2017.12.08-05.24.35:341][731]LogFbx:Warning: Triangulating static mesh floor
+[2017.12.08-05.24.35:343][731]LogStaticMesh: Building static mesh Speaker_floor...
+[2017.12.08-05.24.35:343][731]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Speaker/Speaker_floor.Speaker_floor
+[2017.12.08-05.24.35:351][731]LogLinker: Can't find file '/Game/Models/Speaker/Material_002'
+[2017.12.08-05.24.35:351][731]LogLinker: Can't find file '/Game/Models/Speaker/Material_002'
+[2017.12.08-05.24.35:356][731]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2017.12.08-05.24.35:372][731]LogLinker: Can't find file '/Game/Models/Speaker/Material'
+[2017.12.08-05.24.35:372][731]LogLinker: Can't find file '/Game/Models/Speaker/Material'
+[2017.12.08-05.24.35:378][731]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.12.08-05.24.35:394][731]LogFbx:Warning: Triangulating static mesh SPEAKER
+[2017.12.08-05.24.39:759][731]LogStaticMesh: Building static mesh Speaker_SPEAKER...
+[2017.12.08-05.24.40:493][731]LogStaticMesh: Built static mesh [0.73s] /Game/Models/Speaker/Speaker_SPEAKER.Speaker_SPEAKER
+[2017.12.08-05.24.40:724][731]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.12.08-05.25.01:573][181]LogActorFactory: Actor Factory created Speaker_SPEAKER
+[2017.12.08-05.25.02:362][248]LogActorFactory: Actor Factory created Speaker_SPEAKER
+[2017.12.08-05.25.09:741][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Speaker_SPEAKER)
+[2017.12.08-05.26.04:358][ 97]MapCheck: New page: Map Check
+[2017.12.08-05.26.04:378][ 97]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.08-05.26.04:378][ 97]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.08-05.26.04:436][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.08-05.26.04:443][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_ReinforcedGridWall, compiling. 
+[2017.12.08-05.26.04:448][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_7, compiling. 
+[2017.12.08-05.26.04:453][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Nick_Glass, compiling. 
+[2017.12.08-05.26.04:460][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial, compiling. 
+[2017.12.08-05.26.04:467][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_DiamondPlateSciFi, compiling. 
+[2017.12.08-05.26.04:475][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ground_GrassThickGreen, compiling. 
+[2017.12.08-05.26.04:482][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_CyberCube, compiling. 
+[2017.12.08-05.26.04:489][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Alarm_Red, compiling. 
+[2017.12.08-05.26.04:495][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Alarm_Shiny_Metal, compiling. 
+[2017.12.08-05.26.04:502][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatteSilver, compiling. 
+[2017.12.08-05.26.04:508][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy White, compiling. 
+[2017.12.08-05.26.04:515][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Red, compiling. 
+[2017.12.08-05.26.04:521][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy material0, compiling. 
+[2017.12.08-05.26.04:528][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Light, compiling. 
+[2017.12.08-05.26.04:534][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tile_Coloredtiles, compiling. 
+[2017.12.08-05.26.04:541][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2017.12.08-05.26.04:547][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bagel_material, compiling. 
+[2017.12.08-05.26.04:554][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_CineMat_CameraBody, compiling. 
+[2017.12.08-05.26.04:560][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_CineMat_CamViewFinder, compiling. 
+[2017.12.08-05.26.05:855][ 97]TextureStreamingBuild:Display: Compiling optional shaders took 1.424 seconds.
+[2017.12.08-05.26.05:869][ 97]LogLevel:Display: Export Material TexCoord Scales took 0.014 seconds.
+[2017.12.08-05.26.05:882][ 97]TextureStreamingBuild:Display: Build Texture Streaming took 0.012 seconds.
+[2017.12.08-05.26.05:892][ 97]LightingResults: New page: Lighting Build - Dec 7, 2017, 3:26:05 PM
+[2017.12.08-05.26.05:902][ 97]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.08-05.26.05:904][ 97]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.08-05.26.05:904][ 97]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.08-05.26.05:905][ 97]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.08-05.26.05:905][ 97]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11660
+[2017.12.08-05.26.10:440][ 97]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.12.08-05.26.10:440][ 97]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.08-05.26.10:440][ 97]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.08-05.26.10:440][ 97]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.08-05.26.10:440][ 97]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.08-05.26.10:440][ 97]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.08-05.26.10:621][ 97]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.08-05.26.10:621][ 97]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 3:26:10 PM
+[2017.12.08-05.26.10:621][ 97]MapCheck:Error: Error Speaker_SPEAKER_6 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.12.08-05.26.10:621][ 97]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.26.10:621][ 97]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.26.10:622][ 97]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.12.08-05.26.10:741][ 97]MapCheck: Info Map check complete: 2 Error(s), 2 Warning(s), took 120.733ms to complete.
+[2017.12.08-05.26.10:764][ 97]LogEditorBuildUtils: Build time 0:06
+[2017.12.08-05.26.10:820][ 97]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Red, compiling. 
+[2017.12.08-05.26.10:826][ 97]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Red, compiling. 
+[2017.12.08-05.26.18:093][453]Job is a success!
+[2017.12.08-05.26.18:909][454]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.12.08-05.26.18:909][454]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.12.08-05.26.18:909][454]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.12.08-05.26.18:909][454]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.12.08-05.26.18:909][454]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.12.08-05.26.18:909][454]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.12.08-05.26.18:996][454]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 32X32)
+[2017.12.08-05.26.18:996][454]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8, 1024X128)
+[2017.12.08-05.26.18:996][454]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8, 512X512)
+[2017.12.08-05.26.19:019][454]Lightmass on ALF: 7.17 sec total, 133 ms importing, 37 ms setup, 805 ms photons, 6.16 sec processing, 0 ms extra exporting [121/121 mappings]. Threads: 24.6 sec total, 15.4 sec processing.
+[2017.12.08-05.26.19:034][454]LogStaticLightingSystem: Illumination: 13.1 sec (656 ms encoding lightmaps, 76 ms encoding shadowmaps)
+[2017.12.08-05.26.19:034][454]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2017.12.08-05.26.19:034][454]LogStaticLightingSystem: Shadowmap texture memory: 2.0 MB (0.7 MB streaming, 1.3 MB non-streaming), 3 textures
+[2017.12.08-05.26.19:445][454]DumpUnbuiltLightIteractions
+[2017.12.08-05.26.19:445][454]Lights with unbuilt interactions: 0
+[2017.12.08-05.26.19:445][454]
+[2017.12.08-05.26.19:445][454]Primitives with unbuilt interactions: 0
+[2017.12.08-05.26.19:456][455]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.08-05.26.19:456][455]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 3:26:19 PM
+[2017.12.08-05.26.19:459][455]MapCheck:Error: Error Speaker_SPEAKER_6 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.12.08-05.26.19:459][455]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.26.19:459][455]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.26.19:579][455]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 123.068ms to complete.
+[2017.12.08-05.27.35:983][511]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/alrod_000/Downloads/Mini speakers.fbx)
+[2017.12.08-05.27.36:709][511]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.12.08-05.27.36:709][511]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.12.08-05.27.36:709][511]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.12.08-05.27.36:709][511]LogFbx: ItemName: NodeAttribute, ItemCount : 27
+[2017.12.08-05.27.36:709][511]LogFbx: ItemName: Model, ItemCount : 37
+[2017.12.08-05.27.36:709][511]LogFbx: ItemName: Geometry, ItemCount : 10
+[2017.12.08-05.27.36:709][511]LogFbx: ItemName: Material, ItemCount : 7
+[2017.12.08-05.27.36:709][511]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.12.08-05.27.36:709][511]LogFbx: ItemName: Video, ItemCount : 1
+[2017.12.08-05.27.36:714][511]LogFbx: Loading FBX Scene from ../../../../../../Users/alrod_000/Downloads/Mini speakers.fbx
+[2017.12.08-05.27.38:338][511]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.08-05.27.40:537][511]LogFbx: Loading FBX Scene from ../../../../../../Users/alrod_000/Downloads/Mini speakers.fbx
+[2017.12.08-05.27.42:151][511]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.08-05.27.42:155][511]LogLinker: Can't find file '/Game/Models/Speaker/speaker'
+[2017.12.08-05.27.42:156][511]LogLinker: Can't find file '/Game/Models/Speaker/speaker'
+[2017.12.08-05.27.42:162][511]LogMaterial: Missing cached shader map for material speaker, compiling. 
+[2017.12.08-05.27.42:176][511]LogLinker: Can't find file '/Game/Models/Speaker/blue'
+[2017.12.08-05.27.42:177][511]LogLinker: Can't find file '/Game/Models/Speaker/blue'
+[2017.12.08-05.27.42:183][511]LogMaterial: Missing cached shader map for material blue, compiling. 
+[2017.12.08-05.27.42:200][511]LogLinker: Can't find file '/Game/Models/Speaker/inside_speker'
+[2017.12.08-05.27.42:200][511]LogLinker: Can't find file '/Game/Models/Speaker/inside_speker'
+[2017.12.08-05.27.42:206][511]LogMaterial: Missing cached shader map for material inside_speker, compiling. 
+[2017.12.08-05.27.42:225][511]LogFbx:Warning: Triangulating static mesh Mini_speaker
+[2017.12.08-05.27.43:123][511]LogStaticMesh: Building static mesh Mini_speakers_Mini_speaker...
+[2017.12.08-05.27.43:375][511]LogStaticMesh: Built static mesh [0.25s] /Game/Models/Speaker/Mini_speakers_Mini_speaker.Mini_speakers_Mini_speaker
+[2017.12.08-05.27.43:385][511]LogStaticMesh:Warning: Mini_speakers_Mini_speaker has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.12.08-05.27.43:402][511]LogFbx:Warning: Triangulating static mesh Mini_speaker1
+[2017.12.08-05.27.44:303][511]LogStaticMesh: Building static mesh Mini_speakers_Mini_speaker1...
+[2017.12.08-05.27.44:548][511]LogStaticMesh: Built static mesh [0.24s] /Game/Models/Speaker/Mini_speakers_Mini_speaker1.Mini_speakers_Mini_speaker1
+[2017.12.08-05.27.44:557][511]LogStaticMesh:Warning: Mini_speakers_Mini_speaker1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.12.08-05.27.44:576][511]LogLinker: Can't find file '/Game/Models/Speaker/red'
+[2017.12.08-05.27.44:577][511]LogLinker: Can't find file '/Game/Models/Speaker/red'
+[2017.12.08-05.27.44:582][511]LogMaterial: Missing cached shader map for material red, compiling. 
+[2017.12.08-05.27.44:598][511]LogLinker: Can't find file '/Game/Models/Speaker/Black'
+[2017.12.08-05.27.44:598][511]LogLinker: Can't find file '/Game/Models/Speaker/Black'
+[2017.12.08-05.27.44:604][511]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2017.12.08-05.27.45:810][511]LogFbx:Warning: Triangulating static mesh pPipe1
+[2017.12.08-05.27.51:264][511]LogStaticMesh: Building static mesh Mini_speakers_pPipe1...
+[2017.12.08-05.27.55:864][511]LogStaticMesh: Built static mesh [4.60s] /Game/Models/Speaker/Mini_speakers_pPipe1.Mini_speakers_pPipe1
+[2017.12.08-05.27.55:897][511]LogLinker: Can't find file '/Game/Models/Speaker/pokretla'
+[2017.12.08-05.27.55:897][511]LogLinker: Can't find file '/Game/Models/Speaker/pokretla'
+[2017.12.08-05.27.55:903][511]LogMaterial: Missing cached shader map for material pokretla, compiling. 
+[2017.12.08-05.27.55:917][511]LogFbx:Warning: Triangulating static mesh pCylinder11
+[2017.12.08-05.27.55:974][511]LogStaticMesh: Building static mesh Mini_speakers_pCylinder11...
+[2017.12.08-05.27.55:985][511]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Speaker/Mini_speakers_pCylinder11.Mini_speakers_pCylinder11
+[2017.12.08-05.27.55:993][511]LogFbx:Warning: Triangulating static mesh pCylinder12
+[2017.12.08-05.27.56:051][511]LogStaticMesh: Building static mesh Mini_speakers_pCylinder12...
+[2017.12.08-05.27.56:061][511]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Speaker/Mini_speakers_pCylinder12.Mini_speakers_pCylinder12
+[2017.12.08-05.27.56:070][511]LogFbx:Warning: Triangulating static mesh pCylinder13
+[2017.12.08-05.27.56:140][511]LogStaticMesh: Building static mesh Mini_speakers_pCylinder13...
+[2017.12.08-05.27.56:160][511]LogStaticMesh: Built static mesh [0.02s] /Game/Models/Speaker/Mini_speakers_pCylinder13.Mini_speakers_pCylinder13
+[2017.12.08-05.27.56:160][511]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\mesh\TriangleMeshBuilder.cpp 1080) eINTERNAL_ERROR : cleaning the mesh failed
+[2017.12.08-05.27.56:160][511]LogPhysics:Warning: Failed to cook TriMesh: /Game/Models/Speaker/Mini_speakers_pCylinder13.Mini_speakers_pCylinder13.
+[2017.12.08-05.27.56:164][511]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\mesh\TriangleMeshBuilder.cpp 1080) eINTERNAL_ERROR : cleaning the mesh failed
+[2017.12.08-05.27.56:164][511]LogPhysics:Warning: Failed to cook TriMesh: /Game/Models/Speaker/Mini_speakers_pCylinder13.Mini_speakers_pCylinder13.
+[2017.12.08-05.27.56:166][511]LogFbx:Warning: Triangulating static mesh pCylinder14
+[2017.12.08-05.27.56:226][511]LogStaticMesh: Building static mesh Mini_speakers_pCylinder14...
+[2017.12.08-05.27.56:245][511]LogStaticMesh: Built static mesh [0.02s] /Game/Models/Speaker/Mini_speakers_pCylinder14.Mini_speakers_pCylinder14
+[2017.12.08-05.27.56:253][511]LogLinker: Can't find file '/Game/Models/Speaker/lambert1'
+[2017.12.08-05.27.56:253][511]LogLinker: Can't find file '/Game/Models/Speaker/lambert1'
+[2017.12.08-05.27.56:257][511]LogLinker: Can't find file '/Game/Models/Speaker/wood_2'
+[2017.12.08-05.27.56:257][511]LogLinker: Can't find file '/Game/Models/Speaker/wood_2'
+[2017.12.08-05.27.56:342][511]LogTexture:Display: Building textures: wood_2 (BGRA8, 1024X438)
+[2017.12.08-05.27.56:402][511]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.12.08-05.27.56:463][511]LogFbx:Warning: Triangulating static mesh pCube8
+[2017.12.08-05.27.56:519][511]LogStaticMesh: Building static mesh Mini_speakers_pCube8...
+[2017.12.08-05.27.56:528][511]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Speaker/Mini_speakers_pCube8.Mini_speakers_pCube8
+[2017.12.08-05.27.56:529][511]LogStaticMesh:Warning: Mini_speakers_pCube8 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.12.08-05.27.56:553][511]LogFbx:Warning: Triangulating static mesh pCylinder10
+[2017.12.08-05.27.56:587][511]LogStaticMesh: Building static mesh Mini_speakers_pCylinder10...
+[2017.12.08-05.27.56:592][511]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Speaker/Mini_speakers_pCylinder10.Mini_speakers_pCylinder10
+[2017.12.08-05.27.56:621][511]LogFbx:Warning: Triangulating static mesh pCylinder9
+[2017.12.08-05.27.56:655][511]LogStaticMesh: Building static mesh Mini_speakers_pCylinder9...
+[2017.12.08-05.27.56:659][511]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Speaker/Mini_speakers_pCylinder9.Mini_speakers_pCylinder9
+[2017.12.08-05.27.56:668][511]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.08-05.27.56:669][511]FBXImport:Warning: Warning Mini_speakers_Mini_speaker has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.12.08-05.27.56:669][511]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.08-05.27.56:669][511]FBXImport:Warning: Warning Mini_speakers_Mini_speaker1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.12.08-05.27.56:669][511]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.08-05.27.56:669][511]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.08-05.27.56:669][511]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.08-05.27.56:669][511]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.08-05.27.56:669][511]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.08-05.27.56:669][511]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.08-05.27.56:669][511]FBXImport:Warning: Warning Mini_speakers_pCube8 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.12.08-05.27.56:669][511]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.08-05.27.56:669][511]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.08-05.28.08:321][457]LogActorFactory: Actor Factory created Mini_speakers_Mini_speaker
+[2017.12.08-05.28.08:851][509]LogActorFactory: Actor Factory created Mini_speakers_Mini_speaker
+[2017.12.08-05.28.37:273][381]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mini_speakers_Mini_speaker)
+[2017.12.08-05.29.34:613][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mini_speakers_Mini_speaker)
+[2017.12.08-05.29.39:822][409]Cmd: MODE ROTGRID=0
+[2017.12.08-05.29.52:226][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mini_speakers_Mini_speaker)
+[2017.12.08-05.30.52:992][608]LogActorFactory: Actor Factory created Button_pPipe1
+[2017.12.08-05.30.53:591][662]LogActorFactory: Actor Factory created Button_pPipe1
+[2017.12.08-05.31.13:989][861]LogActorFactory: Actor Factory created Button_pCylinder1
+[2017.12.08-05.31.14:793][924]LogActorFactory: Actor Factory created Button_pCylinder1
+[2017.12.08-05.31.18:412][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Button_pPipe1)
+[2017.12.08-05.31.29:403][517]Cmd: TRANSACTION UNDO
+[2017.12.08-05.31.29:403][517]LogEditorTransaction: Undo Select Brush Surface
+[2017.12.08-05.31.38:285][490]Cmd: TRANSACTION UNDO
+[2017.12.08-05.31.38:285][490]LogEditorTransaction: Undo Move Actors
+[2017.12.08-05.31.39:139][548]Cmd: TRANSACTION UNDO
+[2017.12.08-05.31.39:139][548]LogEditorTransaction: Undo Move Actors
+[2017.12.08-05.31.53:190][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Button_pCylinder1)
+[2017.12.08-05.32.10:302][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Button_pPipe1)
+[2017.12.08-05.32.54:717][141]LogSavePackage: Save=135.00ms
+[2017.12.08-05.32.54:717][141]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior4D7241A34ED7D9C9DCFDFD97ACB62207.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-05.32.54:725][141]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-05.32.54:891][141]LogSavePackage: Save=106.72ms
+[2017.12.08-05.32.54:891][141]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltData601EA3B442B096FD92735A8CBF8187D8.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-05.32.54:899][141]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-05.32.56:630][288]MapCheck: New page: Map Check
+[2017.12.08-05.32.56:648][288]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.08-05.32.56:648][288]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.08-05.32.56:706][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.08-05.32.56:713][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_ReinforcedGridWall, compiling. 
+[2017.12.08-05.32.56:718][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_8, compiling. 
+[2017.12.08-05.32.56:724][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Nick_Glass, compiling. 
+[2017.12.08-05.32.56:731][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial, compiling. 
+[2017.12.08-05.32.56:738][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_DiamondPlateSciFi, compiling. 
+[2017.12.08-05.32.56:745][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ground_GrassThickGreen, compiling. 
+[2017.12.08-05.32.56:752][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_CyberCube, compiling. 
+[2017.12.08-05.32.56:758][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Alarm_Red, compiling. 
+[2017.12.08-05.32.56:765][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Alarm_Shiny_Metal, compiling. 
+[2017.12.08-05.32.56:772][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatteSilver, compiling. 
+[2017.12.08-05.32.56:778][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy White, compiling. 
+[2017.12.08-05.32.56:785][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Red, compiling. 
+[2017.12.08-05.32.56:791][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy material0, compiling. 
+[2017.12.08-05.32.56:798][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Light, compiling. 
+[2017.12.08-05.32.56:805][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tile_Coloredtiles, compiling. 
+[2017.12.08-05.32.56:811][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2017.12.08-05.32.56:818][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bagel_material, compiling. 
+[2017.12.08-05.32.56:825][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy speaker, compiling. 
+[2017.12.08-05.32.56:831][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy blue, compiling. 
+[2017.12.08-05.32.56:837][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy inside_speker, compiling. 
+[2017.12.08-05.32.56:843][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_BrushedSteel, compiling. 
+[2017.12.08-05.32.56:849][288]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2017.12.08-05.32.58:276][288]TextureStreamingBuild:Display: Compiling optional shaders took 1.575 seconds.
+[2017.12.08-05.32.58:292][288]LogLevel:Display: Export Material TexCoord Scales took 0.016 seconds.
+[2017.12.08-05.32.58:303][288]TextureStreamingBuild:Display: Build Texture Streaming took 0.011 seconds.
+[2017.12.08-05.32.58:313][288]LightingResults: New page: Lighting Build - Dec 7, 2017, 3:32:58 PM
+[2017.12.08-05.32.58:323][288]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.08-05.32.58:325][288]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.08-05.32.58:325][288]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.08-05.32.58:326][288]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.08-05.32.58:326][288]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11660
+[2017.12.08-05.33.02:861][288]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.12.08-05.33.02:862][288]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.08-05.33.02:862][288]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.08-05.33.02:862][288]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.08-05.33.02:862][288]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.08-05.33.02:862][288]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.08-05.33.03:095][288]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.08-05.33.03:095][288]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 3:33:03 PM
+[2017.12.08-05.33.03:096][288]MapCheck:Warning: Warning Speaker_SPEAKER_6 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.33.03:096][288]MapCheck:Warning: Warning Speaker_SPEAKER_6 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.33.03:096][288]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.33.03:096][288]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.33.03:096][288]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.12.08-05.33.03:230][288]MapCheck: Info Map check complete: 1 Error(s), 4 Warning(s), took 134.366ms to complete.
+[2017.12.08-05.33.03:253][288]LogEditorBuildUtils: Build time 0:06
+[2017.12.08-05.33.03:368][289]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer speaker, compiling. 
+[2017.12.08-05.33.03:375][289]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer speaker, compiling. 
+[2017.12.08-05.33.03:415][290]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blue, compiling. 
+[2017.12.08-05.33.03:423][290]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blue, compiling. 
+[2017.12.08-05.33.03:461][291]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer inside_speker, compiling. 
+[2017.12.08-05.33.03:467][291]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer inside_speker, compiling. 
+[2017.12.08-05.33.03:511][292]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Metal_BrushedSteel, compiling. 
+[2017.12.08-05.33.03:518][292]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Metal_BrushedSteel, compiling. 
+[2017.12.08-05.33.03:561][293]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2017.12.08-05.33.03:567][293]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2017.12.08-05.33.14:165][322]Job is a success!
+[2017.12.08-05.33.14:639][323]LogMaterial:Warning: Material /Game/Models/Speaker/speaker.speaker needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-05.33.14:642][323]LogMaterial: Missing cached shader map for material speaker, compiling. 
+[2017.12.08-05.33.14:664][323]LogMaterial:Warning: Material /Game/Models/Speaker/blue.blue needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-05.33.14:667][323]LogMaterial: Missing cached shader map for material blue, compiling. 
+[2017.12.08-05.33.14:691][323]LogMaterial:Warning: Material /Game/Models/Speaker/inside_speker.inside_speker needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-05.33.14:694][323]LogMaterial: Missing cached shader map for material inside_speker, compiling. 
+[2017.12.08-05.33.14:714][323]LogMaterial:Warning: Material /Game/Models/Button/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-05.33.14:716][323]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.12.08-05.33.15:509][323]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.12.08-05.33.15:509][323]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.12.08-05.33.15:509][323]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2017.12.08-05.33.15:509][323]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2017.12.08-05.33.15:509][323]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2017.12.08-05.33.15:509][323]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2017.12.08-05.33.15:593][323]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (G8, 32X32)
+[2017.12.08-05.33.15:593][323]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8, 1024X128)
+[2017.12.08-05.33.15:594][323]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8, 512X512)
+[2017.12.08-05.33.15:643][323]LogStaticLightingSystem: Illumination: 16.9 sec (725 ms encoding lightmaps, 82 ms encoding shadowmaps)
+[2017.12.08-05.33.15:643][323]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2017.12.08-05.33.15:643][323]LogStaticLightingSystem: Shadowmap texture memory: 2.0 MB (0.7 MB streaming, 1.3 MB non-streaming), 3 textures
+[2017.12.08-05.33.15:879][323]DumpUnbuiltLightIteractions
+[2017.12.08-05.33.15:879][323]Lights with unbuilt interactions: 0
+[2017.12.08-05.33.15:879][323]
+[2017.12.08-05.33.15:879][323]Primitives with unbuilt interactions: 0
+[2017.12.08-05.33.15:891][324]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.08-05.33.15:891][324]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 3:33:15 PM
+[2017.12.08-05.33.15:892][324]MapCheck:Warning: Warning Speaker_SPEAKER_6 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.33.15:892][324]MapCheck:Warning: Warning Speaker_SPEAKER_6 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.33.15:892][324]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.33.15:892][324]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.33.16:039][324]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 147.325ms to complete.
+[2017.12.08-05.33.22:699][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Button_pCylinder1)
+[2017.12.08-05.33.36:379][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Button_pPipe1)
+[2017.12.08-05.33.43:315][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.12.08-05.34.22:673][337]LogTemp: Repeting last play command: Selected Viewport
+[2017.12.08-05.34.22:924][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.08-05.34.22:927][337]PIE: New page: PIE session: Toaster_Interior (Dec 7, 2017, 3:34:22 PM)
+[2017.12.08-05.34.22:927][337]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Toaster_Interior
+[2017.12.08-05.34.22:941][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014041s)
+[2017.12.08-05.34.22:942][337]LogAIModule: Creating AISystem for world Toaster_Interior
+[2017.12.08-05.34.22:942][337]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2017.12.08-05.34.22:943][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Toaster_Interior.Toaster_Interior to /Game/Maps/UEDPIE_0_Toaster_Interior.Toaster_Interior (0.015434s)
+[2017.12.08-05.34.22:972][337]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.08-05.34.22:983][337]LogInit: FAudioDevice initialized.
+[2017.12.08-05.34.23:034][337]LogLoad: Game class is 'GameModeBase'
+[2017.12.08-05.34.23:045][337]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Toaster_Interior.Toaster_Interior up for play (max tick rate 0) at 2017.12.07-22.34.23
+[2017.12.08-05.34.23:046][337]LogLinker:Warning: Can't find file '/Game/Cinematics/Sequences/ShotList/ShotListMaster'
+[2017.12.08-05.34.23:047][337]LogLinker:Warning: Can't find file '/Game/Cinematics/Sequences/ShotList/ShotListMaster'
+[2017.12.08-05.34.23:047][337]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Cinematics/Sequences/ShotList/ShotListMaster.ShotListMaster'
+[2017.12.08-05.34.23:047][337]LogLinker:Warning: Can't find file '/Game/Cinematics/Sequences/shot23'
+[2017.12.08-05.34.23:047][337]LogLinker:Warning: Can't find file '/Game/Cinematics/Sequences/shot23'
+[2017.12.08-05.34.23:047][337]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Cinematics/Sequences/shot23.shot23'
+[2017.12.08-05.34.23:048][337]LogLinker:Warning: Can't find file '/Game/Cinematics/Sequences/ShotList/AlarmLight'
+[2017.12.08-05.34.23:048][337]LogLinker:Warning: Can't find file '/Game/Cinematics/Sequences/ShotList/AlarmLight'
+[2017.12.08-05.34.23:048][337]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Cinematics/Sequences/ShotList/AlarmLight.AlarmLight'
+[2017.12.08-05.34.23:048][337]LogLinker:Warning: Can't find file '/Game/Cinematics/Sequences/ShotList/RedAlarm'
+[2017.12.08-05.34.23:048][337]LogLinker:Warning: Can't find file '/Game/Cinematics/Sequences/ShotList/RedAlarm'
+[2017.12.08-05.34.23:048][337]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Cinematics/Sequences/ShotList/RedAlarm.RedAlarm'
+[2017.12.08-05.34.23:049][337]LogLinker:Warning: Can't find file '/Game/Cinematics/Sequences/ShotList/RedLight'
+[2017.12.08-05.34.23:049][337]LogLinker:Warning: Can't find file '/Game/Cinematics/Sequences/ShotList/RedLight'
+[2017.12.08-05.34.23:049][337]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Cinematics/Sequences/ShotList/RedLight.RedLight'
+[2017.12.08-05.34.23:049][337]LogLinker:Warning: Can't find file '/Game/Cinematics/Sequences/ShotList/GreenLight'
+[2017.12.08-05.34.23:049][337]LogLinker:Warning: Can't find file '/Game/Cinematics/Sequences/ShotList/GreenLight'
+[2017.12.08-05.34.23:049][337]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Cinematics/Sequences/ShotList/GreenLight.GreenLight'
+[2017.12.08-05.34.23:049][337]LogLinker:Warning: Can't find file '/Game/GreenAlarm'
+[2017.12.08-05.34.23:050][337]LogLinker:Warning: Can't find file '/Game/GreenAlarm'
+[2017.12.08-05.34.23:050][337]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/GreenAlarm.GreenAlarm'
+[2017.12.08-05.34.23:050][337]LogLinker:Warning: Can't find file '/Game/Sequences/Shots/Shot02-alternate'
+[2017.12.08-05.34.23:050][337]LogLinker:Warning: Can't find file '/Game/Sequences/Shots/Shot02-alternate'
+[2017.12.08-05.34.23:050][337]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Sequences/Shots/Shot02-alternate.Shot02-alternate'
+[2017.12.08-05.34.23:065][337]LogWorld: Bringing up level for play took: 0.023543
+[2017.12.08-05.34.23:142][337]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.12.08-05.34.23:149][337]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Toaster_Interior 0.029
+[2017.12.08-05.34.25:822][610]MapCheck: New page: Map Check
+[2017.12.08-05.34.25:843][610]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.08-05.34.25:844][610]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.08-05.34.25:899][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.08-05.34.25:907][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_ReinforcedGridWall, compiling. 
+[2017.12.08-05.34.25:912][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_9, compiling. 
+[2017.12.08-05.34.25:918][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Nick_Glass, compiling. 
+[2017.12.08-05.34.25:924][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial, compiling. 
+[2017.12.08-05.34.25:931][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_DiamondPlateSciFi, compiling. 
+[2017.12.08-05.34.25:939][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ground_GrassThickGreen, compiling. 
+[2017.12.08-05.34.25:946][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tile_Coloredtiles, compiling. 
+[2017.12.08-05.34.25:953][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Alarm_Red, compiling. 
+[2017.12.08-05.34.25:959][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Alarm_Shiny_Metal, compiling. 
+[2017.12.08-05.34.25:966][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatteSilver, compiling. 
+[2017.12.08-05.34.25:973][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy White, compiling. 
+[2017.12.08-05.34.25:980][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Red, compiling. 
+[2017.12.08-05.34.25:986][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy material0, compiling. 
+[2017.12.08-05.34.25:993][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Light, compiling. 
+[2017.12.08-05.34.25:999][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2017.12.08-05.34.26:005][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bagel_material, compiling. 
+[2017.12.08-05.34.26:012][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy speaker, compiling. 
+[2017.12.08-05.34.26:019][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy blue, compiling. 
+[2017.12.08-05.34.26:025][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy inside_speker, compiling. 
+[2017.12.08-05.34.26:031][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_BrushedSteel, compiling. 
+[2017.12.08-05.34.26:038][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WarningLight, compiling. 
+[2017.12.08-05.34.27:467][610]TextureStreamingBuild:Display: Compiling optional shaders took 1.572 seconds.
+[2017.12.08-05.34.27:481][610]LogLevel:Display: Export Material TexCoord Scales took 0.013 seconds.
+[2017.12.08-05.34.27:496][610]TextureStreamingBuild:Display: Build Texture Streaming took 0.015 seconds.
+[2017.12.08-05.34.27:505][610]LightingResults: New page: Lighting Build - Dec 7, 2017, 3:34:27 PM
+[2017.12.08-05.34.27:518][610]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.08-05.34.27:519][610]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.08-05.34.27:519][610]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.08-05.34.27:520][610]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.08-05.34.27:520][610]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11660
+[2017.12.08-05.34.32:056][610]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.12.08-05.34.32:056][610]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.08-05.34.32:056][610]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.08-05.34.32:056][610]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.08-05.34.32:056][610]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.08-05.34.32:056][610]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.08-05.34.32:209][610]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.08-05.34.32:209][610]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 3:34:32 PM
+[2017.12.08-05.34.32:210][610]MapCheck:Warning: Warning Speaker_SPEAKER_6 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.34.32:210][610]MapCheck:Warning: Warning Speaker_SPEAKER_6 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.34.32:210][610]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.34.32:210][610]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.34.32:344][610]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 135.085ms to complete.
+[2017.12.08-05.34.32:367][610]LogEditorBuildUtils: Build time 0:06
+[2017.12.08-05.34.32:430][610]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tile_Coloredtiles, compiling. 
+[2017.12.08-05.34.32:436][610]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tile_Coloredtiles, compiling. 
+[2017.12.08-05.34.32:489][611]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer speaker, compiling. 
+[2017.12.08-05.34.32:496][611]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer speaker, compiling. 
+[2017.12.08-05.34.32:549][612]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blue, compiling. 
+[2017.12.08-05.34.32:556][612]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blue, compiling. 
+[2017.12.08-05.34.32:612][613]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer inside_speker, compiling. 
+[2017.12.08-05.34.32:619][613]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer inside_speker, compiling. 
+[2017.12.08-05.34.32:642][614]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WarningLight, compiling. 
+[2017.12.08-05.34.32:649][614]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WarningLight, compiling. 
+[2017.12.08-05.34.42:143][133]Job is a success!
+[2017.12.08-05.34.42:984][134]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.12.08-05.34.42:984][134]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.12.08-05.34.42:985][134]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.12.08-05.34.42:985][134]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.12.08-05.34.42:985][134]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.12.08-05.34.42:985][134]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.12.08-05.34.43:067][134]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (G8, 32X32)
+[2017.12.08-05.34.43:067][134]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8, 1024X128)
+[2017.12.08-05.34.43:067][134]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8, 512X512)
+[2017.12.08-05.34.43:108][134]Lightmass on ALF: 8.03 sec total, 147 ms importing, 44 ms setup, 964 ms photons, 6.83 sec processing, 0 ms extra exporting [124/124 mappings]. Threads: 27.3 sec total, 17.3 sec processing.
+[2017.12.08-05.34.43:108][134]LogStaticLightingSystem: Illumination: 15.5 sec (673 ms encoding lightmaps, 71 ms encoding shadowmaps)
+[2017.12.08-05.34.43:108][134]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2017.12.08-05.34.43:108][134]LogStaticLightingSystem: Shadowmap texture memory: 2.0 MB (0.7 MB streaming, 1.3 MB non-streaming), 3 textures
+[2017.12.08-05.34.44:060][134]DumpUnbuiltLightIteractions
+[2017.12.08-05.34.44:060][134]Lights with unbuilt interactions: 0
+[2017.12.08-05.34.44:060][134]
+[2017.12.08-05.34.44:060][134]Primitives with unbuilt interactions: 0
+[2017.12.08-05.34.44:071][135]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.08-05.34.44:071][135]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 3:34:44 PM
+[2017.12.08-05.34.44:075][135]MapCheck:Warning: Warning Speaker_SPEAKER_6 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.34.44:075][135]MapCheck:Warning: Warning Speaker_SPEAKER_6 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.34.44:075][135]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.34.44:075][135]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.34.44:211][135]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 139.616ms to complete.
+[2017.12.08-05.34.59:348][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.12.08-05.35.08:281][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.08-05.35.10:703][847]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.12.08-05.35.34:241][291]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Console)
+[2017.12.08-05.35.39:034][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel2)
+[2017.12.08-05.35.44:128][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bagel2)
+[2017.12.08-05.35.46:872][458]LogSavePackage: Save=133.62ms
+[2017.12.08-05.35.46:872][458]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_InteriorA02A568C4E2971492BB44D88CF66DE31.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-05.35.46:881][458]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-05.35.47:032][458]LogSavePackage: Save=108.29ms
+[2017.12.08-05.35.47:032][458]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltData8DFDB1C44A81A805F5EA08A09092AFF3.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-05.35.47:040][458]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-05.36.33:943][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.12.08-05.37.01:458][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Button_pPipe1)
+[2017.12.08-05.37.13:943][543]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Console)
+[2017.12.08-05.37.15:883][701]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.12.08-05.37.30:819][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.12.08-05.37.30:862][168]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.12.08-05.37.31:277][204]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.12.08-05.37.31:348][208]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Console)
+[2017.12.08-05.37.33:920][456]Cmd: TRANSACTION UNDO
+[2017.12.08-05.37.33:921][456]LogEditorTransaction: Undo Animatable Property Changed
+[2017.12.08-05.37.35:362][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.12.08-05.37.36:116][640]Cmd: TRANSACTION UNDO
+[2017.12.08-05.37.36:116][640]LogEditorTransaction: Undo Animatable Property Changed
+[2017.12.08-05.37.37:262][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.12.08-05.37.37:749][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Button_pPipe1)
+[2017.12.08-05.37.44:852][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.12.08-05.37.45:986][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.12.08-05.37.50:143][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.12.08-05.37.50:161][985]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.12.08-05.38.28:890][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Button_pPipe1)
+[2017.12.08-05.39.24:304][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Button_pPipe1)
+[2017.12.08-05.39.26:866][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Button_pCylinder1)
+[2017.12.08-05.39.27:326][402]Cmd: TRANSACTION UNDO
+[2017.12.08-05.39.27:326][402]LogEditorTransaction: Undo Animatable Property Changed
+[2017.12.08-05.39.32:978][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Button_pPipe1)
+[2017.12.08-05.42.50:392][722]LogTemp: Repeting last play command: Selected Viewport
+[2017.12.08-05.42.50:407][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.08-05.42.50:407][722]PIE: New page: PIE session: Toaster_Interior (Dec 7, 2017, 3:42:50 PM)
+[2017.12.08-05.42.50:407][722]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Toaster_Interior
+[2017.12.08-05.42.50:420][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012981s)
+[2017.12.08-05.42.50:421][722]LogAIModule: Creating AISystem for world Toaster_Interior
+[2017.12.08-05.42.50:421][722]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2017.12.08-05.42.50:421][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Toaster_Interior.Toaster_Interior to /Game/Maps/UEDPIE_0_Toaster_Interior.Toaster_Interior (0.014078s)
+[2017.12.08-05.42.50:449][722]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.08-05.42.50:460][722]LogInit: FAudioDevice initialized.
+[2017.12.08-05.42.50:494][722]LogLoad: Game class is 'GameModeBase'
+[2017.12.08-05.42.50:498][722]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Toaster_Interior.Toaster_Interior up for play (max tick rate 0) at 2017.12.07-22.42.50
+[2017.12.08-05.42.50:503][722]LogWorld: Bringing up level for play took: 0.007134
+[2017.12.08-05.42.50:506][722]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Toaster_Interior -0.614
+[2017.12.08-05.43.32:302][465]LogSavePackage: Save=132.98ms
+[2017.12.08-05.43.32:302][465]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior8986D8D64CE265AD55977BBF4863C539.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-05.43.32:310][465]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-05.43.32:468][465]LogSavePackage: Save=110.36ms
+[2017.12.08-05.43.32:468][465]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltData9CF1BA7F4E6C73B55F07E6AB6ADA8017.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-05.43.32:472][465]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-05.44.22:500][998]LogSavePackage: Save=133.89ms
+[2017.12.08-05.44.22:500][998]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior4473FFE74C8E889FF53CAE8231294FC5.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-05.44.22:508][998]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-05.44.22:661][998]LogSavePackage: Save=109.21ms
+[2017.12.08-05.44.22:661][998]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltDataAF6D903B48C982E2F8009DA67EB37CBA.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-05.44.22:665][998]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-05.45.06:050][524]Cmd: TRANSACTION UNDO
+[2017.12.08-05.45.06:050][524]LogEditorTransaction: Undo Delete Node
+[2017.12.08-05.45.51:042][960]LogSavePackage: Save=16.27ms
+[2017.12.08-05.45.51:042][960]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot-21-DifferentAngleF85595F04796713ACA5A14801EBA0D6D.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/Shot-21/Shot-21-DifferentAngle.uasset'
+[2017.12.08-05.45.51:051][960]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/Shot-21/Shot-21-DifferentAngle.uasset
+[2017.12.08-05.47.12:988][334]LogSavePackage: Save=14.66ms
+[2017.12.08-05.47.12:988][334]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Shot-21-DifferentAngle12413B0F74422BB3C4C188D99EF556246.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/Shot-21/Shot-21-DifferentAngle1.uasset'
+[2017.12.08-05.47.12:996][334]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Cinematics/Sequences/Shots/Shot-21/Shot-21-DifferentAngle1.uasset
+[2017.12.08-05.47.13:957][408]LogSavePackage: Save=133.25ms
+[2017.12.08-05.47.13:957][408]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior98B5C7C646AAF306B150E99A20090F03.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap'
+[2017.12.08-05.47.13:964][408]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior.umap
+[2017.12.08-05.47.14:128][408]LogSavePackage: Save=108.51ms
+[2017.12.08-05.47.14:128][408]LogSavePackage: Moving '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Saved/Toaster_Interior_BuiltDataEBD9BDCC456E5DB14A785EB2BBB45C3B.tmp' to '../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset'
+[2017.12.08-05.47.14:132][408]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alrod_000/Documents/Unreal Projects/EAE 3660/Final Project/ToastFinal/Content/Maps/Toaster_Interior_BuiltData.uasset
+[2017.12.08-05.49.02:948][321]MapCheck: New page: Map Check
+[2017.12.08-05.49.02:965][321]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.08-05.49.02:965][321]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.08-05.49.03:023][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.08-05.49.03:030][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_ReinforcedGridWall, compiling. 
+[2017.12.08-05.49.03:035][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_10, compiling. 
+[2017.12.08-05.49.03:041][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Nick_Glass, compiling. 
+[2017.12.08-05.49.03:048][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial, compiling. 
+[2017.12.08-05.49.03:055][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_DiamondPlateSciFi, compiling. 
+[2017.12.08-05.49.03:062][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ground_GrassThickGreen, compiling. 
+[2017.12.08-05.49.03:069][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tile_Coloredtiles, compiling. 
+[2017.12.08-05.49.03:076][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Alarm_Red, compiling. 
+[2017.12.08-05.49.03:082][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Alarm_Shiny_Metal, compiling. 
+[2017.12.08-05.49.03:089][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatteSilver, compiling. 
+[2017.12.08-05.49.03:096][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy White, compiling. 
+[2017.12.08-05.49.03:102][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Red, compiling. 
+[2017.12.08-05.49.03:109][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy material0, compiling. 
+[2017.12.08-05.49.03:115][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Light, compiling. 
+[2017.12.08-05.49.03:121][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2017.12.08-05.49.03:127][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bagel_material, compiling. 
+[2017.12.08-05.49.03:134][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy speaker, compiling. 
+[2017.12.08-05.49.03:141][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy blue, compiling. 
+[2017.12.08-05.49.03:147][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy inside_speker, compiling. 
+[2017.12.08-05.49.03:154][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_BrushedSteel, compiling. 
+[2017.12.08-05.49.03:160][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WarningLight, compiling. 
+[2017.12.08-05.49.03:167][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_CineMat_CameraBody, compiling. 
+[2017.12.08-05.49.03:173][321]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_CineMat_CamViewFinder, compiling. 
+[2017.12.08-05.49.04:650][321]TextureStreamingBuild:Display: Compiling optional shaders took 1.632 seconds.
+[2017.12.08-05.49.04:665][321]LogLevel:Display: Export Material TexCoord Scales took 0.015 seconds.
+[2017.12.08-05.49.04:677][321]TextureStreamingBuild:Display: Build Texture Streaming took 0.012 seconds.
+[2017.12.08-05.49.04:691][321]LightingResults: New page: Lighting Build - Dec 7, 2017, 3:49:04 PM
+[2017.12.08-05.49.04:702][321]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.08-05.49.04:705][321]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.08-05.49.04:705][321]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.08-05.49.04:706][321]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.08-05.49.04:706][321]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11660
+[2017.12.08-05.49.09:239][321]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.12.08-05.49.09:239][321]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.08-05.49.09:239][321]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.08-05.49.09:239][321]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.08-05.49.09:239][321]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.08-05.49.09:239][321]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.08-05.49.09:427][321]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.08-05.49.09:427][321]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 3:49:09 PM
+[2017.12.08-05.49.09:427][321]MapCheck:Warning: Warning Speaker_SPEAKER_6 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.49.09:427][321]MapCheck:Warning: Warning Speaker_SPEAKER_6 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.49.09:427][321]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.49.09:427][321]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.49.09:428][321]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.12.08-05.49.09:558][321]MapCheck: Info Map check complete: 1 Error(s), 4 Warning(s), took 131.839ms to complete.
+[2017.12.08-05.49.09:582][321]LogEditorBuildUtils: Build time 0:06
+[2017.12.08-05.49.20:180][243]Job is a success!
+[2017.12.08-05.49.21:041][244]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.12.08-05.49.21:041][244]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.12.08-05.49.21:041][244]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2017.12.08-05.49.21:041][244]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2017.12.08-05.49.21:041][244]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2017.12.08-05.49.21:041][244]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2017.12.08-05.49.21:129][244]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (G8, 32X32)
+[2017.12.08-05.49.21:129][244]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8, 1024X128)
+[2017.12.08-05.49.21:129][244]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8, 512X512)
+[2017.12.08-05.49.21:158][244]Lightmass on ALF: 10.8 sec total, 171 ms importing, 50 ms setup, 1.20 sec photons, 9.39 sec processing, 0 ms extra exporting [123/123 mappings]. Threads: 37.5 sec total, 24.6 sec processing.
+[2017.12.08-05.49.21:173][244]LogStaticLightingSystem: Illumination: 16.4 sec (692 ms encoding lightmaps, 76 ms encoding shadowmaps)
+[2017.12.08-05.49.21:173][244]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2017.12.08-05.49.21:173][244]LogStaticLightingSystem: Shadowmap texture memory: 2.0 MB (0.7 MB streaming, 1.3 MB non-streaming), 3 textures
+[2017.12.08-05.49.21:246][244]DumpUnbuiltLightIteractions
+[2017.12.08-05.49.21:246][244]Lights with unbuilt interactions: 0
+[2017.12.08-05.49.21:246][244]
+[2017.12.08-05.49.21:246][244]Primitives with unbuilt interactions: 0
+[2017.12.08-05.49.21:255][245]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.08-05.49.21:255][245]MapCheck: New page: Toaster_Interior - Dec 7, 2017, 3:49:21 PM
+[2017.12.08-05.49.21:256][245]MapCheck:Warning: Warning Speaker_SPEAKER_6 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.49.21:256][245]MapCheck:Warning: Warning Speaker_SPEAKER_6 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.49.21:256][245]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.49.21:256][245]MapCheck:Warning: Warning ChairProp_2 Static mesh actor has NULL StaticMesh property 
+[2017.12.08-05.49.21:388][245]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 132.888ms to complete.
